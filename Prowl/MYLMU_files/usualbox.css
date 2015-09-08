@@ -1,0 +1,115 @@
+.button_row {
+	position: relative;
+	height: 1px;
+	text-align: right;
+}
+
+.usual_sub_box td, .usual_sub_box th {
+	padding: .2em .5em;
+}
+
+.usual_box, .usual_box_white {
+	margin-bottom: 0 !important;
+}
+
+.usual_sub_box {
+	padding: 1em 18px;
+}
+
+.usual_box h2.collapsible {
+	font-size: 1.3em;
+	margin: 0 5px 0 2px;
+	padding: 10px 8px 10px 17px;
+	border-bottom: 1px solid #C7DDE9;
+	background: url(../images/icons/arrow_down.png) 5px center no-repeat;
+}
+
+.usual_box h2.collapsible a {
+	color: #000 !important;
+	text-decoration: none;
+}
+
+.usual_box h2.collapsible .float_right a {
+	color: #009 !important;
+	text-decoration: underline;
+}
+
+.usual_box h2 span {
+	font-size: .75em;
+	vertical-align: middle;
+	font-weight: normal;
+}
+
+.usual_box h2 input.button {
+	font-size: .9em;
+	vertical-align: middle;
+}
+
+.usual_box_white h1, .modal_container h1, .modal_container h3 {
+	border: none;
+	margin: 0;
+	padding-top: 10px;
+}
+
+.usual_box_white h2.collapsible {
+	border: none;
+	background: url(../images/icons/right_arrow.png) 7px center no-repeat;
+}
+
+.usual_box_white .usual_sub_box {
+	padding: 5px 1.3em;
+}
+
+/*.usual_box h3 {
+	margin: .5em 1em .2em 1em;
+}*/
+
+.usual_box .button_row input {
+	font-size: 1em;
+	vertical-align: middle;
+}
+
+.box_tr {
+	background-repeat: no-repeat;
+	background-image: url(../images/corners/box_tr.png);
+	background-position: top right;
+}
+
+.box_tl {
+	background-repeat: no-repeat;
+	background-image: url(../images/corners/box_tl.png);
+	background-position: top left;
+}
+
+.box_mr {
+	background-repeat: repeat-y;
+	background-image: url(../images/corners/box_r.png);
+	background-position: right;
+}
+
+.box_ml {
+	background-repeat: repeat-y;
+	background-image: url(../images/corners/box_l.png);
+	background-position: left;
+	background-color: #fff;
+}
+
+.box_br {
+	background-repeat: no-repeat;
+	background-image: url(../images/corners/box_br.png);
+	background-position: bottom right;
+}
+
+.box_bl {
+	background-repeat: no-repeat;
+	background-image: url(../images/corners/box_bl.png);
+	background-position: bottom left;
+}
+
+.usual_box_white .box_tr {
+	background-image: url(../images/corners/box_white_tr.png);
+}
+
+.usual_box_white .box_tl {
+	background-image: url(../images/corners/box_white_tl.png);
+}

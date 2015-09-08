@@ -1,0 +1,2216 @@
+
+#ipbadmin, #ipbadmin td {font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;}
+
+#ipbadmin a.ipb {
+	color: #3B4C6B;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	text-decoration: underline;
+}
+
+#ipbadmin a.ipb:link, 
+#ipbadmin a.ipb:visited, 
+#ipbadmin a.ipb:active {
+	color: #3B4C6B;
+}
+
+#ipbadmin a.ipb:hover {
+	color: #555555;
+}
+
+#ipbadmin a.ipb-bold {
+	color: #CC5555;
+	font: bold 12px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	text-transform: uppercase;
+}
+
+#ipbadmin a.ipb-bold:link, 
+#ipbadmin a.ipb-bold:visited, 
+#ipbadmin a.ipb-bold:active {
+	color: #3B4C6B;
+}
+
+#ipbadmin a.ipb-bold:hover {
+	color: #555555;
+}
+
+#ipbadmin a.ipb-crumbs, 
+#ipbadmin a.ipb-crumbs:link, 
+#ipbadmin a.ipb-crumbs:visited, 
+#ipbadmin a.ipb-crumbs:active {
+	color: #3B4C6B;
+	font: 10px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	text-decoration: underline;
+}
+
+#ipbadmin a.ipb-crumbs:hover {
+	color: #666666;
+}
+
+#ipbadmin a.ipb-head-change:link, 
+#ipbadmin a.ipb-head-change:visited, 
+#ipbadmin a.ipb-head-change:active {
+	background: #F1F1F1;
+	color: #BBBBBB;
+	display: block;
+	font: bold 10px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 5px 0 4px 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#ipbadmin a.ipb-head-change:hover {
+	background: #3B4C6B;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#ipbadmin a.ipb-useradmin-plus:link {
+	color: #FFFFFF;
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+}
+
+#ipbadmin a.ipb-useradmin-plus:visited {
+	color: #FFFFFF;
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+}
+
+#ipbadmin a.ipb-useradmin-plus:hover {
+	color: #EAEAED;
+}
+
+#ipbadmin a.ipb-useradmin-plus:active {
+	color: #FFFFFF;
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+}
+
+#ipbadmin div#ipb-breadcrumbs {
+	background: #f3f3f3;
+	color: #888888;
+	font: 10px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	margin: 4px 0 8px 18px;
+	padding: 0;
+}
+
+#ipbadmin div#ipb-head {
+	background: url(../images/gradback.gif);
+	height: 33px;
+}
+
+#ipbadmin div#ipb-userman-box {
+	background: #F1F1F1;
+	padding: 8px 8px 0 8px;
+	width: 728px;
+}
+
+#ipbadmin div.ipb-search {
+	background: #8C939F;
+	margin-bottom: 8px;
+	padding: 8px;
+	width: 712px;
+}
+
+#ipbadmin div.ipb-picture-preview {
+	background: #FFFFFF; font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	margin-bottom: 16px;
+	padding: 8px;
+}
+
+#ipbadmin table.ipb-typical {
+	width: 744px;
+}
+
+#ipbadmin div.ipb-typical 
+{
+	table-layout: fixed;
+	width: 744px;
+	/*width: 100%;*/
+	background: #FFFFFF; 
+	/*margin-bottom: 12px;*/
+	padding: 8px;
+	border: 1px solid #D6D4DE;
+}
+
+#ipbadmin div.ipb-error {
+	width: 100%;
+	background: #3B4C6B;
+	padding: 8px;
+}
+
+
+#ipbadmin div.ipb-error-744 {
+	width: 744px;
+	background: #3B4C6B;
+	padding: 8px;
+}
+
+#ipbadmin .ipb-headwarning { 
+	background: #cc0000; 
+	border-bottom: solid 1px #FFFFFF; 
+	width: 744px;
+}
+
+#ipbadmin .ipb-headwarning span {
+	text-transform: uppercase; 
+	font-weight: bold;
+}
+
+#ipbadmin .ipb-headwarning td {
+	color: #ffffff; 
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif; 
+	padding: 4px 10px;
+}
+
+#ipbadmin div.ipb-linewarning {
+	}
+
+#ipbadmin div.ipb-linewarning span {
+	text-transform: uppercase; 
+	color: #c00; 
+	font-weight: bold;
+}
+
+#ipbadmin .ipb-caution {
+	padding: 10px 10px 10px 55px; 
+	background: url(../images/caution.gif) 20px center no-repeat #FCD84A; 
+	/*width: 100%; - ACM-5781*/
+	border-left: 1px solid #D6D4DE; 
+	border-right: 1px solid #D6D4DE;
+	overflow: hidden!important;
+}
+
+#ipbadmin .ipb-caution strong {
+	font-weight: bold; 
+	text-transform: uppercase; 
+}
+
+#ipbadmin div.ipb-userman {
+	background: #8C939F;
+	margin-bottom: 8px;
+	padding: 8px;
+	width: 712px;
+}
+
+#ipbadmin iframe.ipb-iframe-712 {
+	border: 0;
+	height: 248px;
+	margin: 0;
+	padding: 0;
+	width: 712px;
+}
+
+#ipbadmin iframe.ipb-iframe-744 {
+	border: 0;
+	height: 248px;
+	margin: 0;
+	padding: 0;
+	width: 744px;
+}
+
+#ipbadmin img.ipb-icon {
+	border: 0;
+	margin-right: 5px;
+}
+
+#ipbadmin img.ipb-icon-notch {
+	margin-left: 5px;
+}
+
+#ipbadmin p#ipb-nodes {
+	margin-bottom: 10px;
+}
+
+#ipbadmin p#ipb-treehome {
+	margin: 0 0 8px 0;
+}
+
+#ipbadmin p.ipb {
+	color: #000000;
+	font: 11px/1.1em Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	margin: 1px 0 4px 0;
+}
+
+#ipbadmin p.ipb-tree {
+	margin: 0 0 4px 22px;
+}
+
+#ipbadmin p.ipb-tree2 {
+	margin: 0 0 4px 44px;
+}
+
+#ipbadmin .ipb-admindropdowntreesel { 
+  font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif; 
+	text-transform: uppercase;
+}
+
+#ipbadmin .ipb-admindropdownhover {
+	background: #999;
+	cursor: pointer;
+	font: bold;
+}
+
+#ipbadmin table.ipb-head {
+	table-layout: fixed;
+	background: #cccccc;
+	border-bottom: solid 1px #FFFFFF;
+	color: #FFFFFF;
+	font: bold  11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+#ipbadmin .ipb-head {
+	color: #FFFFFF;
+	font: bold 12px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+}
+
+#ipbadmin .ipb-head td {
+	color: #000000;
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 4px 5px;
+	background: url(../images/gradback.gif);
+	height: 33px;
+}
+	
+#ipbadmin table.ipb-head-admin {
+	background: #cccccc;
+	border-bottom: solid 1px #FFFFFF;
+	color: #FFFFFF;
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	text-transform: uppercase;
+	width: 371px;
+}
+
+#ipbadmin table.ipb-head-admin td {
+	color: #FFFFFF;
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 4px 5px;
+}
+
+#ipbadmin table.ipb-head-full {
+	background: #cccccc;
+	border-bottom: solid 1px #FFFFFF;
+	color: #FFFFFF;
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	text-transform: uppercase;
+	width: 100%;
+	/*width: 744px;*/
+}
+
+#ipbadmin table.ipb-head-two {
+	background: #cccccc;
+	color: #FFFFFF;
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	text-transform: uppercase;
+	width: 744px;
+}
+
+#ipbadmin table.ipb-head-two td {
+	color: #000000;
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 4px 5px;
+	background: url(../images/gradback.gif);
+	height: 33px;
+}
+
+#ipbadmin table.ipb-no tr td {
+	border-top: 0;
+	color: #000000;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+}
+
+#ipbadmin td.ipb-column-right {
+	text-align: right;
+}
+
+#ipbadmin td.ipb-left-two {
+	border-right: solid 1px #FFFFFF;
+	vertical-align: top;
+	width: 371px;
+}
+
+/*div.ipb-tree-row{display:inline-table!important;clear:both;float:left}*/
+div.ipb-tree-row span{display:inline-block!important} /*ACM-5961*/
+
+#ipbadmin td.ipb-name {
+	font-weight: normal;
+	text-transform: none;
+}
+
+#ipbadmin td.ipb-right-two {
+	border-left: solid 1px #FFFFFF;
+	vertical-align: top;
+	width: 371px;
+}
+
+#ipbadmin tr.ipb-rowa td, 
+#ipbadmin tr.ipb-rowb td, 
+#ipbadmin tr.ipb-rowa-fulleditonly td, 
+#ipbadmin tr.ipb-rowb-fulleditonly td, 
+#ipbadmin .ipb-row-category td {
+	border-top: solid 1px #FFFFFF;
+}
+
+#ipbadmin tr.ipb-rowb-2 td {
+	border: 0;
+}
+
+#ipbadmin tr.ipb-rowc {
+	border-top: solid 1px #FFFFFF;
+}
+
+#ipbadmin tr.ipb-rowc-noborder {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+#ipbadmin .ibp-tabseparator {
+	background: #FFFFFF;
+	width: 2px;
+}
+
+/*****************************************************/
+
+#ipbadmin .ipb-all-688 {
+	border: 0;
+	color: #000000;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	width: 688px;
+}
+
+#ipbadmin .ipb-all-688 td {
+	color: #000000;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+}
+
+#ipbadmin .ipb-all-488 {
+	border: 0;
+	color: #000000;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	width: 488px;
+}
+
+#ipbadmin .ipb-all-488 td {
+	color: #000000;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+}
+
+#ipbadmin .ipb-all-712-nopad {
+	background: #000000;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	width: 712px;
+	color: #000000;
+	background-color: #ffffff;
+}
+
+#ipbadmin .ipb-all-712-nopad td {
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+}
+
+#ipbadmin .ipb-all-712-nopad a 
+{
+	color: #3B4C6B;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	text-decoration: underline;
+}
+
+#ipbadmin .ipb-all-720 {
+	border: 0;
+	color: #000000;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	width: 720px;
+}
+
+#ipbadmin .ipb-all-720 td {
+	color: #000000;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+}
+
+#ipbadmin .ipb-all-728 {
+	background: #000000;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	width: 728px;
+}
+
+#ipbadmin .ipb-all-728 td {
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 0;
+}
+
+#ipbadmin .ipb-all-728-nopad {
+	background: #000000;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	width: 728px;
+}
+
+#ipbadmin .ipb-all-728-nopad td {
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+}
+
+#ipbadmin table.ipb-all-744 
+{
+	table-layout: fixed;
+	border: 0;
+	color: #000000;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	/*width: 744px;*/
+	width: 100%;
+}
+	
+.viewmode table.ipb-all-744 {width: 100% !Important}
+
+#tbltools {width: 100% Important;}
+
+#ipbadmin .ipb-all-744 td {
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	overflow :hidden!important; 
+}
+
+#ipbadmin .ipb-all-full {
+	border: 0;
+	color: #000000;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	width: 100%;
+}
+
+#ipbadmin .ipb-all-full td {
+	color: #000000;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+}
+
+#ipbadmin .ipb-alphadiv {
+	color: #AAAAAA;
+	font: 10px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+}
+
+#ipbadmin .ipb-bold {
+	font-weight: bold;
+}
+
+#ipbadmin .ipb-errormsg {
+	color: #3B4C6B;
+	font:  11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+}
+
+
+#ipbadmin .ipb-button {
+	background: url(../images/buttonback.gif);
+	border: solid 1px #000000;
+	cursor: pointer;
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	margin-right: 2px;
+	color: #ffffff;
+	padding: 2px 1px;
+	text-transform: none;
+	}
+
+#ipbadmin .ipb-buttonbg {
+	background: url(../images/gradback.gif);
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	color: #000000;
+	height: 33px;
+}
+
+#ipbadmin .ipb-buttonbg-double {
+	background: url(../images/gradback_extended.gif);
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	color: #000000;
+	height: 55px;
+}
+
+#ipbadmin .ipb-column-left {
+	color: #666666;
+	padding: 5px 3px 3px 3px;
+	text-align: right;
+	vertical-align: top;
+	width: 16%;
+}
+
+#ipbadmin .ipb-column-left-alignmiddle {
+	color: #666666;
+	padding: 5px 3px 3px 3px;
+	text-align: right;
+	width: 16%;
+}
+
+#ipbadmin .ipb-column-leftwide {
+	color: #666666;
+	padding: 5px 3px 3px 3px;
+	text-align: right;
+	vertical-align: top;
+	width: 30%;
+}
+
+#ipbadmin .ipb-column-leftnarrow-alignleft {
+	color: #666666;
+	padding: 5px 3px 3px 3px;
+	text-align: left;
+	vertical-align: top;
+	width: 10%;
+}
+
+#ipbadmin .ipb-column-leftwide-alignleft {
+	color: #666666;
+	padding: 5px 3px 3px 3px;
+	text-align: left;
+	vertical-align: top;
+	width: 30%;
+}
+
+#ipbadmin .ipb-copy {
+	color: #000000;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+}
+
+#ipbadmin .ipb-copy td {
+	color: #000000;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+}
+
+#ipbadmin .ipb-field {
+	color: #000000;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 2px;
+}
+
+#ipbadmin .ipb-folder-button 
+{	background: url(../images/buttonback.gif) !Important;
+	border: solid 1px #000000;
+	cursor: pointer;
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	margin-right: 2px;
+	color: #ffffff;
+	padding: 2px 1px;
+	text-transform: none;
+	}
+
+
+#ipbadmin .ipb-grey-button 
+{background: url(../images/buttonback.gif) !Important;
+	border: solid 1px #000000;
+	cursor: pointer;
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	margin-right: 2px;
+	color: #ffffff;
+	padding: 2px 1px;
+	text-transform: none;
+	}
+
+
+tr.ipb-headfull td span#ctlHtmlEditor_lblTitle {width: 734px;}
+
+#ipbadmin .ipb-headdescribe {
+	background: #48525F;
+	border-bottom: solid 1px #FFFFFF;
+	color: #969CA3;
+	font: 10px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	width: 744px;
+}
+
+#ipbadmin .ipb-headdescribe td {
+	color: #CCCCCC;
+	font: 10px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 4px 10px;
+}
+
+#ipbadmin .ipb-head-full td {
+	color: #FFFFFF;
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 4px 5px;
+}
+
+#ipbadmin .ipb-headsub {
+	background: #666e78;
+	color: #EAEAED;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 8px 0 1px 0;
+	text-transform: uppercase;
+	width: 100% !Important;
+}
+
+#ipbadmin .ipb-headsub td {
+	color: #000000;
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 7px 5px;
+	background: url(../images/gradback.gif);
+	height: 33px;
+	width: 100%;
+}
+
+#ipbadmin .ipb-headfull {
+	background: #666e78;
+	color: #EAEAED;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 8px 0 1px 0;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+#ipbadmin .ipb-headfull td {
+	color: #000000;
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 4px 5px;
+	background: url(../images/gradback.gif);
+	height: 33px;
+}
+
+#ipbadmin .ipb-headsub744 {
+	background: #666e78;
+	color: #EAEAED;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 8px 0 1px 0;
+	text-transform: uppercase;
+	/*width: 744px;*/
+	width: 100%;
+}
+
+#ipbadmin .ipb-headsub744 td {
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 4px 5px;
+	width: 100%;
+}
+
+#ipbadmin .ipb-iframe-head {
+	width: 744px;
+}
+
+#ipbadmin .ipb-iframe-head td {
+	padding: 5px 0 4px 0;
+}
+
+#ipbadmin .ipb-indent {
+	margin-left: 10px;
+}
+
+#ipbadmin .ipb-light {
+	color: #767676;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+}
+
+#ipbadmin .ipb-lighter {
+	color: #8c9394;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+}
+
+#ipbadmin .ipb-notes {
+	background: #F1F1F1;
+	color: #8C939F;
+	font: 10px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+}
+
+#ipbadmin .ipb-plus {
+	margin-right: 5px;
+}
+
+#ipbadmin .ipb-plusindent {
+	margin: 5px 5px 0 16px;
+}
+
+#ipbadmin .ipb-radiolist td {
+	border: 0px !important;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 0px !important;
+}
+
+#ipbadmin .ipb-red {
+	color: #3B4C6B;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+}
+
+#ipbadmin .ipb-required {
+	color: #3B4C6B;
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+}
+
+#ipbadmin .ipb-row-error-msg td {
+  width: 100%;
+}
+
+#ipbadmin .ipb-row-error-msg {
+	color: #3B4C6B;
+	background: #e2e2e2;
+	border-top: solid 1px #FFFFFF;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	text-transform: none;
+}
+
+#ipbadmin .ipb-rowgrey {
+	background: #e2e2e2;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	text-transform: none;
+}
+
+#ipbadmin .ipb-rowa-fulleditonly,
+#ipbadmin .ipb-rowa {
+	background: #e2e2e2;
+	border-top: solid 1px #FFFFFF;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	text-transform: none;
+}
+
+#ipbadmin .ipb-rowb-fulleditonly,
+#ipbadmin .ipb-rowb {
+	background: #E9E9E9;
+	border-top: solid 1px #FFFFFF;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	text-transform: none;
+}
+
+#ipbadmin .ipb-rowb-2 {
+	background: #E9E9E9;
+}
+
+#ipbadmin .ipb-rowc td, 
+#ipbadmin .ipb-rowc-noborder td {
+	border-bottom: 1px solid #E9E9E9;
+	color: #8C939F;
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	height: 22px;
+	padding-bottom: 2px;
+	vertical-align: bottom;
+}
+
+#ipbadmin .ipb-rowc, 
+#ipbadmin .ipb-rowc-noborder {
+	background: #e2e2e2;
+	color: #8C939F;
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	height: 22px;
+	padding-bottom: 2px;
+	text-transform: uppercase;
+	vertical-align: bottom;
+}
+
+#ipbadmin .ipb-rowc-childpages {
+	background: #F1F1F1;
+	color: #8C939F;
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	height: 30px;
+	padding-bottom: 2px;
+	text-transform: uppercase;
+	vertical-align: bottom;
+}
+
+#ipbadmin .ipb-row-category {
+	background-color: #AAAAAA;
+}
+
+#ipbadmin .ipb-row-category td {
+	color: #FFFFFF;
+	font: bold 10px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+}
+
+#ipbadmin .ipb-row-f1 td {
+	background: #F1F1F1;
+	padding: 3px 8px;
+}
+
+#ipbadmin .ipb-search-col-left {
+	color: #FFFFFF;
+	font: bold 10px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	width: 16%;
+}
+
+#ipbadmin .ipb-search-head {
+	border-top: 1px solid #FFFFFF;
+	width: 744px;
+}
+
+#ipbadmin .ipb-search-head td {
+	background: #F1F1F1;
+	border: 0px none;
+	padding: 0;
+}
+
+#ipbadmin .ipb-search-head-712 {
+	border-top: 1px solid #FFFFFF;
+	width: 712px;
+}
+
+#ipbadmin .ipb-search-head-712 td {
+	background: #F1F1F1;
+	border: 0px none;
+	padding: 0;
+}
+
+#ipbadmin .ipb-search-head-728 {
+	border-top: 1px solid #FFFFFF;
+	width: 728px;
+}
+
+#ipbadmin .ipb-search-head-728 td {
+	background: #F1F1F1;
+	border: 0px none;
+	padding: 0;
+}
+
+#ipbadmin .ipb-search-head-alt {
+	background: #8C939F;
+	border-top: 1px solid #8C939F;
+	margin-bottom: 8px;
+	padding: 8px;
+	width: 700px;
+}
+
+#ipbadmin .ipb-search-path a:link {
+	color: #EAEAED;
+	text-decoration: underline;
+}
+
+#ipbadmin .ipb-search-path a:visited {
+	color: #EAEAED;
+	text-decoration: underline;
+}
+
+#ipbadmin .ipb-search-path a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+#ipbadmin .ipb-search-path a:active {
+	color: #EAEAED;
+	text-decoration: underline;
+}
+
+#ipbadmin .ipb-search-path td {
+	color: #DDDDDD;
+	font: 10px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 0px 0px 8px 34px;
+}
+
+#ipbadmin .ipb-search-searchresults {
+	margin-top: 8px;
+	width: 100%;
+}
+
+#ipbadmin .ipb-search-searchresults td {
+	background: #3B4C6B;
+	border: 0px none;
+	color: #FFFFFF;
+	font-family: Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	padding-bottom: 3px;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 3px;
+}
+
+#ipbadmin .ipb-search-searchresults-712 {
+	margin-top: 8px;
+	width: 712px;
+}
+
+#ipbadmin .ipb-search-searchresults-712 td {
+	background: #3B4C6B;
+	border: 0px none;
+	color: #FFFFFF;
+	font-family: Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	padding-bottom: 3px;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 3px;
+}
+
+#ipbadmin .ipb-search-subhead td {
+	background: #8C939F;
+	border-bottom: 1px solid #F1F1F1;
+	color: #FFFFFF;
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 3px 6px 4px 6px;
+}
+
+#ipbadmin .ipb-search-grid a
+{
+	color: #3B4C6B;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	text-decoration: underline;
+}
+
+/* user admin page(s) structure */
+#ipbadmin .ipb-second-buttons td {
+	background: #666e78;
+	border-bottom: 1px solid #F1F1F1;
+	padding: 3px 6px;
+}
+
+#ipbadmin .ipb-small {
+	color: #444444;
+	font: 10px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+}
+
+#ipbadmin .ipb-tab-contentarea {
+	background: #E2E2E2;
+}
+
+#ipbadmin .ipb-tabitem {
+	background:url(../images/tabnormal.gif) no-repeat;
+	background-position: right top;
+	color: #ffffff !important;
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif !important;
+	border:none;
+	padding: 4px 10px;
+	text-decoration: none;	
+	height:100%;
+	cursor:pointer;
+}
+
+#ipbadmin .ipb-tabitem-hover {
+	background:url(../images/tabhover.gif) no-repeat;
+	background-position: right top;
+	color: #ffffff !important;
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif !important;
+	padding: 4px 10px;
+	text-decoration: none;	
+	cursor: default;
+}
+
+#ipbadmin .ipb-tabitem-selected {
+	background:url(../images/tabsel.gif) no-repeat;
+	background-position: right top;
+	color: #697A99 !important;
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif !important;
+	border:none;
+	padding: 4px 10px;
+	height:100%;
+	cursor:pointer;
+}
+
+
+#ipbadmin .ipb-tab-subhead {
+	background: #8C939F;
+	border-bottom: solid 1px #FFFFFF;
+	color: #FFF;
+	font: bold 10px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	margin-top: 4px;
+	width: 744px;
+}
+
+#ipbadmin .ipb-tab-subhead td {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#ipbadmin .ipb-textField-dropdownTree {
+	color: #000000;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 2px;
+	width: 200px;
+	cursor: pointer;
+}
+
+#ipbadmin .ipb-textField-dropdownTree-img {
+	cursor: pointer;
+}
+
+#ipbadmin .ipb-textfield-medium {
+	color: #000000;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 2px;
+	width: 200px;
+}
+
+#ipbadmin .ipb-textfield-tiny {
+	color: #000000;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 2px;
+	width: 40px;
+}
+
+#ipbadmin .ipb-textfield-short {
+	color: #000000;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 2px;
+	width: 100px;
+}
+
+#ipbadmin .ipb-textfield-wide {
+	color: #000000;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 2px;
+	width: 300px;
+}
+
+#ipbadmin .ipb-digiasset-upload {
+	color: #000000;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 2px;
+	width: 300px;
+}
+
+#ipbadmin .ipb-textfield-description-wide {
+	color: #000000;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 2px;
+	width: 300px;
+	height: 64px;
+}
+
+#ipbadmin .ipb-textfield-description-wide2 {
+	color: #000000;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 2px;
+	width: 600px;
+	height: 32px;
+}
+
+#ipbadmin .ipb-textfield-description-xlarge {
+	color: #000000;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 2px;
+	width: 400px;
+	height: 64px;
+}
+
+#ipbadmin .ipb-textfield-question {
+	color: #000000;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 2px;
+	width: 100%;
+	height: 50px;
+}
+
+#ipbadmin .ipb-userman-col-left {
+	color: #FFFFFF;
+	font: bold 10px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	width: 16%;
+}
+
+#ipbadmin .ipb-userman-col-left img {
+	margin-right: 3px;
+}
+
+#ipbadmin .ipb-userman-grey-button 
+	{background: url(../images/buttonback.gif) !Important;
+	border: solid 1px #000000;
+	cursor: pointer;
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	margin-right: 2px;
+	color: #ffffff;
+	padding: 2px 1px;
+	text-transform: none;
+}
+
+#ipbadmin .ipb-userman-iframe-head {
+	border-top: 1px solid #FFFFFF;
+	width: 712px;
+}
+
+#ipbadmin .ipb-userman-iframe-head td {
+	background: #F1F1F1;
+	border: 0;
+	padding: 0;
+}
+
+#ipbadmin .ipb-userman-iframe-searchresults {
+	margin-top: 8px;
+	width: 688px;
+}
+
+#ipbadmin .ipb-userman-iframe-searchresults td {
+	background: #3B4C6B;
+	border: 0;
+	color: #FFFFFF;
+	font: 10px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 3px 6px 3px 6px;
+	text-transform: uppercase;
+}
+
+#ipbadmin .ipb-userman-path a:link {
+	color: #EAEAED;
+	text-decoration: underline;
+}
+
+#ipbadmin .ipb-userman-path a:visited {
+	color: #EAEAED;
+	text-decoration: underline;
+}
+
+#ipbadmin .ipb-userman-path a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+#ipbadmin .ipb-userman-path a:active {
+	color: #EAEAED;
+	text-decoration: underline;
+}
+
+#ipbadmin .ipb-userman-path td {
+	color: #DDDDDD;
+	font: 10px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 0 0 8px 34px;
+}
+
+#ipbadmin .ipb-userman-path-left a:link {
+	color: #EAEAED;
+	text-decoration: underline;
+}
+
+#ipbadmin .ipb-userman-path-left a:visited {
+	color: #EAEAED;
+	text-decoration: underline;
+}
+
+#ipbadmin .ipb-userman-path-left a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+#ipbadmin .ipb-userman-path-left a:active {
+	color: #EAEAED;
+	text-decoration: underline;
+}
+
+#ipbadmin .ipb-userman-path-left td {
+	color: #DDDDDD;
+	font: 10px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 0 0 8px 4px;
+}
+
+#ipbadmin .ipb-userman-path-noindent a:link {
+	color: #EAEAED;
+	text-decoration: underline;
+}
+
+#ipbadmin .ipb-userman-path-noindent a:visited {
+	color: #EAEAED;
+	text-decoration: underline;
+}
+
+#ipbadmin .ipb-userman-path-noindent a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+#ipbadmin .ipb-userman-path-noindent a:active {
+	color: #EAEAED;
+	text-decoration: underline;
+}
+
+#ipbadmin .ipb-userman-path-noindent td {
+	color: #DDDDDD;
+	font: 10px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 0 0 8px 0;
+}
+
+#ipbadmin .ipb-userman-subhead td {
+	background: #8C939F;
+	border-bottom: 1px solid #F1F1F1;
+	color: #FFFFFF;
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 3px 6px 4px 6px;
+}
+
+#ipbadmin .ipb-webgrid-pager {
+	background: #F1F1F1;
+	border-top: solid 1px #FFFFFF;
+	border-bottom: solid 1px #FFFFFF;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif !important;
+}
+
+#ipbadmin .ipb-webgrid-rowa {
+	background: #e2e2e2;
+	border-top: solid 1px #FFFFFF;
+	border-bottom: solid 1px #FFFFFF;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	vertical-align: middle;
+}
+
+#ipbadmin .ipb-webgrid-rowb {
+	background: #E9E9E9;
+	border-top: solid 1px #FFFFFF;
+	border-bottom: solid 1px #FFFFFF;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	vertical-align: middle;
+}
+
+#ipbadmin .ipb-webgrid-rowc-nosort,
+#ipbadmin .ipb-webgrid-rowc-nosort th {
+	background: #F1F1F1;
+	color: #000000;
+	border-top: solid 1px #FFFFFF;
+	border-bottom: solid 1px #FFFFFF;
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	height: 22px;
+	padding-bottom: 2px;
+	text-transform: uppercase;
+	vertical-align: bottom;
+	cursor: default;
+}
+
+#ipbadmin .ipb-ipgridview-rowc-nosort,
+#ipbadmin .ipb-ipgridview-rowc-nosort th {
+	background: #F1F1F1;
+	color: #000000;
+	border-top: solid 1px #FFFFFF;
+	border-bottom: solid 1px #FFFFFF;
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding-bottom: 2px;
+	text-transform: uppercase;
+	vertical-align: bottom;
+	cursor: default;
+}
+.ipgridview.arrowsonly .orderpaddingcell{display:none}
+.ipgridview.arrowsonly .orderinputcell{display:none}
+
+#ipbadmin .ipb-webgrid-rowc-sort,
+#ipbadmin .ipb-webgrid-rowc-sort th {
+	background: #F1F1F1;
+	color: #8C939F;
+	border-top: solid 1px #FFFFFF;
+	border-bottom: solid 1px #FFFFFF;
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	height: 22px;
+	padding-bottom: 2px;
+	text-transform: uppercase;
+	vertical-align: bottom;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#ipbadmin .ipb-webgrid-row-selected {
+  background: Yellow;
+}
+
+#ipbadmin .ipb-whbutton td {
+	background: #FFFFFF;
+	color: #888888;
+}
+
+#ipbadmin .ipb-whbuttonleft {
+	color: #888888;
+	padding: 5px 4px 0 0;
+	text-align: right;
+	width: 16%;
+}
+
+
+#ipbadmin #embed {
+	background: #f3f3f3;
+	margin: 8px;
+	width: 744px;
+}
+
+#ipbadmin #ipb-mainheadingContent {
+	background: #f3f3f3;
+	color: #3B4C6B;
+	font: bold 16px Verdana, Helvetica, sans-serif;
+	padding-top: 8px;
+}
+
+#ipbadmin #ipb-mainheadingAdmin {
+	background: #f3f3f3;
+	color: #3B4C6B;
+	font: bold 16px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding-top: 8px;
+  text-transform: uppercase;
+}
+
+#ipbadmin #ipb-secondary-buttons td {
+	background: #666e78;
+	border-top: solid 4px #FFFFFF;
+	padding: 3px 6px;
+}
+
+#ipbadmin .ipb-large {
+	font: 13px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+}
+
+#ipbadmin table#ipb-assetpreview {
+	background: #FFFFFF;
+	border: 1px solid #000000;
+}
+#ipbadmin tr#ipb-assetpreview {
+	border: none;
+}
+#ipbadmin tr#ipb-assetpreview td {
+	border: none;
+}
+
+
+ /*------------------------------------------
+   QItems 
+   ------------------------------------------ */
+
+#ipbadmin #ipbf-tblStdResponseControl {
+	border: 1px solid #FFFFFF;
+	color: #000000;
+	width: 100%;
+}
+#ipbadmin .ipbf-qitem-preview-table {
+	border: 0;
+	color: #F0F0F0 ;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	width: 100%;
+	padding: 0px;
+}
+
+
+#ipbadmin .ipbf-qitem-response-header {
+	background: #E3E3E3;
+	color: #aaaaaa;
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	height: 22px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	text-transform: uppercase;
+	vertical-align: bottom;
+}
+#ipbadmin .ipbf-qitem-rowa {
+	background: #e2e2e2;
+	border-top: solid 1px #FFFFFF;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	height: 30px;
+}
+#ipbadmin .ipbf-qitem-rowb {
+	background: #E9E9E9;
+	border-top: solid 1px #FFFFFF;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	height: 30px;
+}
+#ipbadmin .ipbf-qitem-category {
+	background: #F1F1F1;
+	border-top: solid 1px #FFFFFF;
+	color: #CBCBCB;
+	font: bold 14px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	height: 30px;
+	padding-bottom: 2px;
+	text-transform: uppercase;
+	vertical-align: middle;
+  text-align: center;
+}
+
+#ipbadmin .ipbf-qitem-column-left {
+	color: #660066;
+	padding: 5px 3px 3px 3px;
+	text-align: right;
+	vertical-align: top;
+	width: 20%;
+}
+#ipbadmin .ipbf-qitem-prev-PageNo {
+	font: bold 12px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+}
+
+#ipbadmin .ipbf-qitem-button { 
+	background-color: transparent; 
+	border: none; 
+	width: 87px; 
+	height: 22px; 
+	font-weight: bold; 
+	color: #FFFFFF; 
+	background-image: url("modalbutton.gif"); 
+	margin-right: 2px;
+}
+
+#ipbadmin .ipbf-field {
+	color: #000000;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 2px;
+	width: 300px;
+}
+
+#ipbadmin .ipbf-errormsg {
+	color: #3B4C6B;
+	font:  11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+}
+
+#ipbadmin .ipbf-qitem-prompt {
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	width: 100%;
+	color:#000;
+}
+
+#ipbadmin .ipbf-input {
+   /* Used for input responses. Style table, row and cell */
+	font:  11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+}
+#ipbadmin .ipbf-select {
+   /* Used for select responses. */
+	font:  bold 9px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	width: 400px;
+}
+
+#ipbadmin .ipbf-TextInput-email {
+	color: #000000;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 2px;
+	width: 200px;
+}
+#ipbadmin .ipbf-TextInput-Telephone {
+	color: #000000;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 2px;
+	width: 200px;
+}
+#ipbadmin .ipbf-TextInput-SingleLine {
+	color: #000000;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 2px;
+	width: 400px;
+}
+#ipbadmin .ipbf-TextInput-Attachment {
+	color: #000000;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 2px;
+	width: 150px;
+}
+#ipbadmin .ipbf-TextInput-Area {
+	color: #000000;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 2px;
+	width: 90%;
+}
+#ipbadmin .ipbf-Rank-Box {
+	color: #000000;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 2px;
+	width: 40px;
+}
+#ipbadmin .ipbf-Rank-Title {
+	color: #000000;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 2px;
+}
+#ipbadmin .ipbf-Checkbox 
+{
+	 /*"Checkbox" or "Custom Group (Multi Selection)" */
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+		color: #000000;
+}
+#ipbadmin .ipbf-Radio 
+{
+	 /*Used for "Radio Button" or "Custom Group (Single Selection)" */
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+		color: #000000;
+}
+#ipbadmin .ibpf-country {
+	color: #000000;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 2px;
+	width: 300px;
+}
+
+
+#btnSearch {margin-left: 2px;}
+#ipbadmin .ipb-headsub_ext {
+  FONT-WEIGHT: bold; 
+  FONT-SIZE: 11px; 
+  MARGIN: 8px 0px 1px; 
+  TEXT-TRANSFORM: uppercase; 
+  WIDTH: 100%! important; 
+  COLOR: #eaeaed;
+}
+
+#ipbadmin .ipb-headsub_ext TD {
+  PADDING-RIGHT: 5px; 
+  PADDING-LEFT: 5px; 
+  BACKGROUND: url("../images/gradback_extended.gif") 0 0 repeat-x #C1C2CB; 
+  PADDING-BOTTOM: 10px; 
+  FONT: bold 11px normal Tahoma, Arial, Verdana, Helvetica, sans-serif ; 
+  WIDTH: 100%; 
+  COLOR: #000000; 
+  PADDING-TOP: 10px; 
+  border-bottom: 1px solid #000000;
+}
+
+#ipbadmin .ipb-headsub_ext TD div.instructions {
+  color: #5C5E6F !Important ; 
+  font: normal 10px Verdana, Arial, Helvetica, sans-serif !Important; 
+  font-style: italic !Important; 
+  text-transform: none; 
+  MARGIN-TOP: 5px; 
+}
+
+#ipbadmin textarea[readonly="readonly"],#ipbadmin textarea[readonly], #ipbadmin textarea.readonly {
+    background:#eee;cursor:default ; 
+}
+
+div.ipb_subcontainer {padding: 10px; background: #C1C2CB;}
+div.ipb_subbox {margin: 0 0 10px 0;}
+div.ipb_subbox input {
+	background: url(../images/buttonback.gif); border: solid 1px #000000; cursor: pointer; font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;margin-right: 2px;color: #ffffff;padding: 2px 1px;text-transform: none;}
+div.ipb_subbox #ctl02_ctlTabStrip_cntContentctl02_ctlTabStrip_ctl00_tblLayouts input {
+	background: none !Important; border: 0 !Important;}
+div.ipb_subbox textarea {border: 0;}
+div.ipb_subbox div {margin: 10px 0 0 0; font-weight: bold; border: 1px solid #E2E2E2; padding: 5px; background: #D3D4DB}
+div.ipb_subbox img {border: 2px solid #fff !Important; margin: 0 10px 3px 0; }
+#ipbadmin .ipb_subheader {width: 700px; COLOR: #eaeaed}
+	#ipbadmin .ipb_subheader TD{height: 18px !Important; background: #828B96 !Important; color: #EAEAED !Important; FONT-WEIGHT: bold; FONT-SIZE: 11px; text-transform: uppercase; }
+	#ipbadmin .ipb_subheader td a:link, #ipbadmin .ipb_subheader td a:visited {text-transform: none; color: #EAEAED;}
+	#ipbadmin .ipb_subheader td a:hover {background-color: #747D89; color: #ffffff;}
+	
+.ipb_qp_results {background-color: #ffffff; padding: 5px;}
+
+.expand_controls {height: 16px; background-image: none; float: right; }
+	.expand_controls td{height: 16px !Important; background-image: none !Important; padding: 0 !Important;}
+
+.control_contract{display: block; background-image: url(control_contract.gif); height: 16px; width: 16px;}
+.control_contract:hover { background-image: url(control_contract_over.gif);}
+
+div.ipb_instructions {
+  color: #5C5E6F !Important ; 
+  font: normal 10px Verdana, Arial, Helvetica, sans-serif !Important; 
+  font-style: italic !Important; 
+  text-transform: none; 
+  MARGIN-TOP: 5px; 
+}
+
+.ipb-highlight {background:#FBFF92;font-weight:bold}
+
+.ipb-help{float:right; cursor: pointer;margin:-18px 10px 0px 0px;}
+html > body .ipb-help{margin-top:2px}
+
+.ipb-help-icon{cursor: pointer;}
+
+.reToolbar.Default .AddDigiasset {
+  background-image: url(../images/AddDigiasset.png);
+}
+
+.reToolbar.Default .AddDigiassetSB {
+  background-image: url(../images/InsertImage.png);
+}
+
+.reToolbar.Default .CreateLinkSB {
+  background-image: url(../images/InsertLink.png);
+}
+
+.reToolbar.Default .W3CClean {
+  background-image: url(../images/W3CClean.gif);
+}
+
+.reToolbar.Default .StripNonHTML {
+  background-image: url(../images/StripNonHTML.gif);
+}
+
+.ipb-messages {
+	position:fixed;
+	top:0;
+	right:0;
+	width:300px;
+	height:400px;
+	display:none;
+	z-index:10000;/*2000 - acm7179*/
+	background-color:#F2F2F2;
+	padding:10px;
+	border:1px solid #D6D6D6;
+}
+.ipb-messages-title {
+	color: #CC5555;
+	font: bold 12px Arial, Verdana, Helvetica, sans-serif;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.ipb-messages-list {
+	width:280px;
+	height:300px;
+	background-color:#F2F2F2;
+	padding:10px;
+	border:1px solid #D6D6D6;
+	overflow : auto;
+}
+.ipb-messages-list ul {
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow : auto;
+}
+.ipb-messages li {
+	border-bottom:1px solid #D6D6D6;
+	overflow:hidden;
+	vertical-align:middle;
+	color:#3D5975;
+	display:block;
+	padding:5px 10px;
+	text-decoration:none;
+}
+.ipb-messages-buttons{margin:12px 0 12px;border:1px solid #d6d6d6;padding:6px 12px;background:#efefef}
+	.ipb-messages-buttons:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;} .ipf-ls-actions {display: inline-block;} /* Hides from IE-mac \*/ * html .ipf-ls-actions {height: 1%;} .ipf-ls-actions {display: block;} /* End hide from IE-mac */ 
+	.ipb-messages-buttons a{float:left;display:block;background:#fff;color:#000;padding:1px 6px;border:1px solid;border-color:#7f7f7f #000 #000 #7f7f7f;text-decoration:none;margin:0 3px 0 0}
+	.ipb-messages-buttons a:hover{text-decoration:underline}
+
+.ipb-messages-close-icon {cursor:pointer;vertical-align:top;float:right;height:12px;width:12px;border:0 none;}
+
+.ipf-editpagelet-icon-container {position:absolute;z-index:999;width:23px} /*;width:200px*/
+	.ipf-editpagelet-icon-container a{float:left}
+	.ipf-editpagelet-icon-container img{float:left;}
+.ipf-editpagelet-locktext {float:left;margin:0 0 10px 5px;background:#f6f6f6;padding:7px 10px;-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius:5px;border:1px solid #efefef;;font-size:11px}
+
+.ipb-addassetfolder {
+	float:left;
+	margin-left: 10px; 
+	margin-right: 5px;
+	width:350px;}
+.ipb-addassetfolder-textfield {
+	color: #000000;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	width:200px;
+	padding: 2px;}
+
+	
+#ipbadmin .ipb-tz-warning{
+padding: 4px;
+background: #FCD84A;
+font-weight:bold !important;
+}
+
+#ipbadmin .ipb-privacy-warning{
+padding: 4px;
+background: #FCD84A;
+font-weight:bold !important;
+font-size:10px;
+line-height:11px;
+}
+
+/**************************************/
+/*   New Admin styles                 */
+/**************************************/
+
+#ipbnewadmin #ipb-mainheadingAdmin {
+	background: #fff;
+	color: #3B4C6B;
+	font: bold 18px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding-top: 8px;
+	padding-bottom: 3px;
+    text-transform: uppercase;
+}
+
+#ipbnewadmin div#ipb-breadcrumbs {
+	background: #fff;
+	color: #888888;
+	font: 10px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	margin: 4px 0px 16px 0px;
+	padding: 0;
+}
+
+#ipbnewadmin a.ipb-crumbs, 
+#ipbnewadmin a.ipb-crumbs:link, 
+#ipbnewadmin a.ipb-crumbs:visited, 
+#ipbnewadmin a.ipb-crumbs:active {
+	color: #3B4C6B;
+	font: 10px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	text-decoration: underline;
+}
+
+#ipbnewadmin a.ipb-crumbs:hover {
+	color: #666666;
+}
+
+#ipbnewadmin table.ipb-head {
+	/*table-layout: fixed;
+	background: #cccccc;
+	border-bottom: solid 1px #FFFFFF;
+	color: #FFFFFF;
+	font: bold  11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	text-transform: uppercase;
+	width: 100%; */
+	display: none;
+}
+
+/*
+#ipbnewadmin .ipb-head {
+	color: #FFFFFF;
+	font: bold 12px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+}
+*/
+
+#ipbnewadmin .ipb-head td {
+	color: #000000;
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 4px 5px;
+	/*background: url(../images/gradback.gif);*/
+	height: 33px;
+}
+
+#ipbnewadmin .ipb-tabitem,
+#ipbnewadmin .ipb-tabitem-selected,
+#ipbnewadmin .ipb-tabitem-hover{
+	font: bold 15px Tahoma, Arial, Verdana, Helvetica, sans-serif !important;
+	padding: 4px 10px;
+	text-decoration: none;	
+	height:100%;
+}
+
+#ipbnewadmin .ipb-tabitem-selected {
+	/*background:url(../images/tabnormal.gif) no-repeat;&*/
+	/*background-position: right top;*/
+	/*color: #ffffff !important;*/
+	color: #666666 !important;
+	border: solid 1px #F0F0F0; /*#e2e2e2; /*none;*/
+	background-color: #F0F0F0; /*#e2e2e2;*/
+	cursor: default !important; /*pointer;*/
+}
+
+#ipbnewadmin .ipb-tabitem-hover {
+	/*background:url(../images/tabhover.gif) no-repeat;*/
+	/*background-position: right top;*/
+	/*color: #ffffff !important;*/
+	cursor: pointer !important; /*default;*/
+	border: solid 1px #D0D0D0; /*none;*/
+	background-color: #D0D0D0;
+}
+
+#ipbnewadmin .ipb-tabitem {
+	/*background:url(../images/tabsel.gif) no-repeat;*/
+	/*background-position: right top;*/
+	/*color: #697A99 !important;*/
+	color: #666666 !important;
+	/*border:none;*/
+	/*border-left: solid 1px #e2e2e2; /*none;*/
+	/*border-top: solid 1px #e2e2e2; /*none;*/
+	/*border-right: solid 1px #e2e2e2; /*none;*/
+	border: solid 1px #D8D8D8; /*none;*/
+	background-color: #D8D8D8;
+	cursor: default !important; /*pointer;*/
+}
+
+#ipbnewadmin .ipb-tab-body{
+	background-color: #F0F0F0 !important; /*#fff;*/
+	border: solid 1px #F0F0F0;
+	padding: 10px 10px 10px 10px;
+}
+
+#ipbnewadmin table.ipb-typical {
+	width: 100%; /*744px;*/
+}
+
+#ipbnewadmin div.ipb-typical 
+{
+	table-layout: fixed;
+	width: 100%; /*744px;*/
+	background: #F0F0F0;
+	/*padding: 8px;*/
+	/*border: 1px solid #D6D4DE;*/
+}
+
+#ipbnewadmin table.ipb-all,
+#ipbnewadmin table.ipb-all-744, 
+#ipbnewadmin table.ipb-min-744,
+#ipbnewadmin table.ipb-min-800{
+	table-layout: fixed;
+	border: 0;
+	color: #000000;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	width: 100%;
+}
+#ipbnewadmin table.ipb-min-744 {
+	min-width: 744px;
+}
+#ipbnewadmin table.ipb-min-800{
+	min-width: 800px;
+}
+	
+/*.viewmode table.ipb-all-744 {width: 100% !Important}*/
+
+#ipbnewadmin .ipb-all-744 td {
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+}
+
+#ipbnewadmin tr.ipb-rowc {
+	border-top: solid 1px #FFFFFF;
+}
+
+#ipbnewadmin tr.ipb-rowc-noborder {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+#ipbnewadmin .ipb-rowc td, 
+#ipbnewadmin .ipb-rowc-noborder td {
+	border-bottom: 1px solid #E9E9E9;
+	color: #8C939F;
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	height: 22px;
+	padding-bottom: 2px;
+	vertical-align: bottom;
+}
+
+#ipbnewadmin .ipb-rowc {
+	border-left: 1px solid blue;
+	background: pink; /*#FFFFFF; /*#e2e2e2;*/
+	color: #8C939F;
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	height: 22px;
+	padding-bottom: 2px;
+	text-transform: uppercase;
+	vertical-align: bottom;
+}
+
+#ipbnewadmin .ipb-rowc-noborder {
+	background: #FFFFFF; /*#e2e2e2;*/
+	color: #8C939F;
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	height: 22px;
+	padding-bottom: 2px;
+	text-transform: uppercase;
+	vertical-align: bottom;
+}
+
+table.noborder td{border:0!important}
+
+#ipbnewadmin .ipb-column,
+#ipbnewadmin .ipb-column100,
+#ipbnewadmin .ipb-column200,
+#ipbnewadmin .ipb-column250,
+#ipbnewadmin .ipb-column300,
+#ipbnewadmin .ipb-column400{
+	text-align: left;
+}
+#ipbnewadmin .ipb-column100{
+	width:100px;
+}
+#ipbnewadmin .ipb-column200{
+	width:200px;
+}
+#ipbnewadmin .ipb-column250{
+	width:250px;
+}
+#ipbnewadmin .ipb-column300{
+	width:300px;
+}
+#ipbnewadmin .ipb-column400{
+	width:400px;
+}
+#ipbnewadmin .ipb-column{
+	width:100%;
+}
+#ipbnewadmin .ipb-column-left,
+#ipbnewadmin .ipb-column-left50,
+#ipbnewadmin .ipb-column-left100,
+#ipbnewadmin .ipb-column-left120,
+#ipbnewadmin .ipb-column-left140,
+#ipbnewadmin .ipb-column-left160,
+#ipbnewadmin .ipb-column-left180,
+#ipbnewadmin .ipb-column-left200,
+#ipbnewadmin .ipb-column-left400{
+	color: #666666;
+	/*padding: 5px 3px 3px 3px;*/
+	text-align: right;
+	vertical-align: top;
+}
+#ipbnewadmin .ipb-column-left50{
+	width: 50px;
+}
+#ipbnewadmin .ipb-column-left100{
+	width: 100px;
+}
+#ipbnewadmin .ipb-column-left120{
+	width: 120px;
+}
+#ipbnewadmin .ipb-column-left140{
+	width: 140px;
+}
+#ipbnewadmin .ipb-column-left160{
+	width: 160px;
+}
+#ipbnewadmin .ipb-column-left200{
+	width: 200px;
+}
+#ipbnewadmin .ipb-column-left400{
+	width: 400px;
+}
+
+#ipbnewadmin .ipb-column-left-alignmiddle{
+	color: #666666;
+	/*padding: 5px 3px 3px 3px;*/
+	text-align: right;
+	/*width: 16%;*/
+}
+
+#ipbnewadmin .ipb-alphadiv {
+	color: #AAAAAA;
+	font: 10px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+}
+
+#ipbnewadmin a.ipb {
+	color: #3B4C6B;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+#ipbnewadmin a.ipb:link, 
+#ipbnewadmin a.ipb:visited, 
+#ipbnewadmin a.ipb:active {
+	/*color: #3B4C6B;*/
+	color: blue;
+}
+
+#ipbnewadmin a.ipb:hover {
+	/*color: #555555;*/
+}
+
+#ipbnewadmin .ipb-rowa {
+	/*background: #e2e2e2;
+	border-top: solid 1px #FFFFFF;*/
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	text-transform: none;
+}
+
+#ipbnewadmin .ipb-rowb {
+	/*background: #E9E9E9;*/
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	text-transform: none;
+}
+
+#ipbnewadmin tr.ipb-rowa td, 
+#ipbnewadmin tr.ipb-rowb td, 
+#ipbnewadmin .ipb-row-category td {
+	/*border-top: solid 1px #FFFFFF;*/
+}
+
+#ipbnewadmin .ipb-checkbox {
+	color: black; /*#666666;*/
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+}
+#ipbnewadmin .ipb-radiobutton {
+	color: black; /*#666666;*/
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+}
+
+#ipbnewadmin .ipb-field-caption,
+#ipbnewadmin .ipb-checkbox label,
+#ipbnewadmin .ipb-radiobutton label{
+	color: black; /*#666666;*/
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+}
+
+#ipbnewadmin .ipb-field,
+#ipbnewadmin .ipb-textfield-tiny,
+#ipbnewadmin .ipb-textfield-short,
+#ipbnewadmin .ipb-textfield-medium,
+#ipbnewadmin .ipb-textfield-medium-wide,
+#ipbnewadmin .ipb-textfield-wide{
+	color: #000000;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 2px;
+}
+
+#ipbnewadmin .ipb-textfield-tiny {
+	width: 40px;
+}
+
+#ipbnewadmin .ipb-textfield-compact {
+	width: 100px;
+}
+
+#ipbnewadmin .ipb-textfield-short {
+	width: 150px;
+}
+
+#ipbnewadmin .ipb-textfield-medium {
+	width: 200px;
+}
+
+#ipbnewadmin .ipb-textfield-medium-wide{
+	width: 250px;
+}
+
+#ipbnewadmin .ipb-textfield-wide {
+	width: 300px;
+}
+
+#ipbnewadmin .ipb-div-popup button,
+#ipbnewadmin .ipb-grey-button {
+	/*background: url(../images/buttonback.gif) !Important;*/
+	border: solid 1px #666666;
+	cursor: pointer;
+	font: bold 12px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	margin-right: 2px;
+	color: #666666;
+	/*padding: 2px 1px;*/
+	padding-left:10px;
+	padding-right:10px;
+	text-transform: none;
+	height: 20px;
+}
+
+#ipbnewadmin .ipb-search-searchresults td {
+	background: #3B4C6B;
+	border: 0px none;
+	color: #FFFFFF;
+	font-family: Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	padding-bottom: 3px;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 3px;
+}
+
+#ipbnewadmin .ipb-info-box-header{
+	vertical-align:top;
+	text-align:left;
+	height:20px;
+	width:100%;
+	background-color:#D0D0D0;
+	font: bold 14px Tahoma, Arial, Verdana, Helvetica, sans-serif !important;
+	color: #666666 !important;
+}
+#ipbnewadmin .ipb-info-box-header td{
+	padding-left:2px;
+	padding-right:2px;
+}
+
+#ipbnewadmin .ipb-info-box-header td a{
+	color: blue;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+#ipbnewadmin .ipb-info-box-header-small{
+	font: normal 11px Tahoma, Arial, Verdana, Helvetica, sans-serif !important;
+	color: #666666 !important;
+}
+
+#ipbnewadmin .ipb-info-header-results{
+	vertical-align:top;
+	text-align:left;
+	height:20px;
+	width:100%;
+	background-color:#D0D0D0;
+	color: #666666 !important;
+}
+
+#ipbnewadmin .ipb-info-box-body{
+	vertical-align:top;
+	background-color:#FFFFFF;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	color:#000000;
+}
+
+#ipbnewadmin .ipb-info-box{
+	width:100%;
+	border-collapse:separate;
+	border-spacing:0px 0px;
+	border-bottom: solid 1px #666666;
+	border-top: solid 1px #666666;
+	border-left: solid 1px #666666;
+	border-right: solid 1px #666666;
+}
+
+#ipbnewadmin .ipb-caption0,
+#ipbnewadmin .ipb-roleman-caption0{
+}
+
+#ipbnewadmin .ipb-caption1,
+#ipbnewadmin .ipb-roleman-caption1{
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	color:#000000;
+	/*text-align:right;
+	padding-right:5px;*/
+}
+
+#ipbnewadmin .ipb-caption2,
+#ipbnewadmin .ipb-roleman-caption2{
+	font:bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	color:#000000;
+	text-align:left;
+}
+
+#ipbnewadmin .ipb-text0,
+#ipbnewadmin .ipb-roleman-text0{
+}
+
+#ipbnewadmin .ipb-text1,
+#ipbnewadmin .ipb-roleman-text1{
+	text-align:left;
+	font:bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	color:#000000;
+}
+
+#ipbnewadmin .ipb-text2,
+#ipbnewadmin .ipb-roleman-text2{
+}
+
+#ipbnewadmin img.ipb-icon {
+	border: 0;
+	margin-right: 5px;
+}
+
+#ipbnewadmin img.ipb-icon-notch {
+	margin-left: 5px;
+}
+
+#ipbnewadmin .ipb-div-popup {
+	color: #666666; /*#3B4C6B;*/
+	/*font: bold 14px Tahoma, Arial, Verdana, Helvetica, sans-serif;*/
+	padding-top: 4px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+    /*text-transform: uppercase;*/
+}
+
+#ipbnewadmin .ipb-admindropdowntreesel { 
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif; 
+	text-transform: uppercase;
+}
+
+#ipbnewadmin p.ipb-tree {
+	margin: 0 0 4px 22px;
+}
+
+#ipbnewadmin .ipb-div-popup-header-tr {
+	font: bold 18px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	height:30px;
+	vertical-align:top;
+}
+
+#ipbnewadmin .ipb-div-popup-header-tr {
+}
+
+/*#ipbnewadmin .ipb-red{
+	color: #3B4C6B;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+}*/
+#ipbnewadmin .ipb-red,
+#ipbnewadmin .ipb-invalid {
+	color: red;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+}
+
+#ipbnewadmin .ipb-dropdownlist{
+}
+
+#ipbnewadmin .ipb-textField-dropdownTree {
+	color: #000000;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 2px;
+	width: 200px;
+	cursor: pointer;
+}
+
+#ipbnewadmin .ipb-textField-dropdownTree-img {
+	cursor: pointer;
+}
+
+.w300{width:300px!important}/*jira#4196 - additional class for ddlSiteGroup in UserDefaults.aspx*/
+tr.notopborder td{border:0!important}
+
+div.ipb-tree div span{ white-space :normal}/*jira#4922 - fix for IE*/
+
+#divDAEditWrapper #DigitalAssetEdit{
+	min-height:751px
+}
+
+a.ipb-sn-intro {display:inline-block;width:100%;height:100%;min-width:145px;min-height:40px!important;}
+span.ipb-clrpicker {display:inline-block;height:14px;width:23px;border-width:1px;border-style:solid;margin-bottom:-4px}
+

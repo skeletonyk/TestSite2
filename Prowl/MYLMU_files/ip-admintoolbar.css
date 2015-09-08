@@ -1,0 +1,248 @@
+#tblACMAdminToolbar{
+    width:100%;
+    border-collapse:collapse;
+    background:#d5d5d5 url(../images/admintoolbar/bg.gif) top left repeat-x;
+    z-index:9999;
+}
+
+.ipb-atb-pinned {position: absolute!important; width:100%!important;top:0px; left:0;right:0;z-index: 2; border: 1px solid #aeaeae;}
+.ipb-atb-unpinned {position: fixed!important;width:100%!important; top:0px; left:0;right:0;z-index: 2; border: 1px solid red;}
+
+#tblACMAdminToolbar td div{width: 935px}
+#tblACMAdminToolbar td  br{display:none;}
+#tblACMAdminToolbar td div div{width:auto}
+
+#tblACMAdminToolbar td,#tblACMAdminToolbar th {font-family: verdana, arial, helvetica, sans-serif; font-size:10px;padding:0}
+	#tblACMAdminToolbar td a{color: #000000;}
+	#tblACMAdminToolbar td a:hover {}
+	#tblACMAdminToolbar td table td {padding:0;}
+
+
+/*.ipb-atb-padding {height:38px}*/
+	
+.ipb-atb-panel, .ipb-atb-panel td,
+.ipb-atb-pinned, .ipb-atb-pinned td,
+.ipb-atb-unpinned, .ipb-atb-unpinned td  {}
+
+.ipb-atb-pin-button {float:left}
+	.ipb-atb-pin-button:hover{cursor:pointer}
+
+.ipb-atb-personal 
+{
+	position:relative;
+	float:left; 
+	display:block; 
+	width:120px;
+	height:38px;
+	background:url(../images/admintoolbar/divider.gif) right no-repeat;
+	/*margin:0 1px 0 0;*/
+	overflow:hidden
+}
+
+	.ipb-atb-welcome{position:absolute;top:6px;left:7px;font-weight:bold;color:#000000}
+	.ipb-atb-logout {position:absolute;bottom:7px;left:7px;z-index:3}
+	.ipb-atb-account {position:absolute;bottom:7px;left:53px;z-index:3}
+
+/*Flyout Styles*/
+	.ipb-atb-menu {padding:0;margin:0;list-style: none;list-style-image:none;line-height: 1;z-index:1000} /*float:right;*/
+	.ipb-atb-menu li {float:left;list-style:none;list-style-image:none;margin:0;padding:0;z-index:1000}
+	.ipb-atb-menu li a{display:block;z-index:1000}
+	
+	/* Level 1 */
+	.ipb-atb-menu li.ipb-atb-rootitem div a{width:68px;height:38px;text-indent:-5000px;background-position:top;}
+	.ipb-atb-menu li.ipb-atb-rootitem div a:hover{background-position:bottom;}
+	.ipb-atb-menu li.ipb-atb-addchildpage div a{background-image: url(../images/admintoolbar/btn_childpage.gif)}
+	.ipb-atb-menu li.ipb-atb-mysites div a{background-image: url(../images/admintoolbar/btn_mysites.gif)}
+	.ipb-atb-menu li.ipb-atb-sitemenu div a{background-image: url(../images/admintoolbar/btn_sitemap.gif)}
+	.ipb-atb-menu li.ipb-atb-mypage div a{background-image: url(../images/admintoolbar/btn_mypage.gif)}
+	.ipb-atb-menu li.ipb-atb-adminsettings div a{background-image: url(../images/admintoolbar/btn_system.gif)}
+	.ipb-atb-menu li.ipb-atb-help div a{background-image: url(../images/admintoolbar/btn_help.gif)}
+	.ipb-atb-menu li.ipb-atb-viewsite div a{background-image: url(../images/admintoolbar/btn_viewsite.gif)}
+	.ipb-atb-menu li.ipb-atb-share div a{background-image: url(../images/admintoolbar/btn_share.jpg)}
+	.ipb-atb-menu li.ipb-atb-liteedit div a{background-image: url(../images/admintoolbar/btn_liteedit.gif)}
+
+	.ipb-atb-pageinfo 
+	{
+		position:relative;
+		float:left; 
+		display: block; 
+		width:240px; 
+		height:38px;
+		/*margin:0 1px 0 0;*/
+		overflow:hidden;
+		background:url(../images/admintoolbar/divider.gif) right no-repeat;
+		color: #666666;
+	}
+	
+	.ipb-atb-pageinfo div a{width:240px;height:38px}
+	.ipb-atb-pageinfo-site {padding-top:6px; width:100% !important;}
+	.ipb-atb-pageinfo-page {padding-top:2px; width:100% !important;}
+	
+	
+	.ipb-atb-menu li.ipb-atb-pageinfo div a{width:240px !important; height:38px;}
+	
+	
+	/* Level 2 */
+	.ipb-atb-menu li ul
+	{
+		width:180px;
+		margin:0 0 0 -1px !important;
+		padding:0;
+		background:#f0f0f0;
+		border-top:1px solid #aeaeae;
+		border-bottom:1px solid #000000;
+		border-left:1px solid #000000;
+		border-right:1px solid #000000;
+		top:-999em;
+		position:absolute;
+		left:-999em;
+	}
+					 
+	.ipb-atb-menu li ul li{float:none;display:block;border-bottom:1px solid #ffffff;overflow:hidden}
+	.ipb-atb-menu li ul li a{text-indent:5px !important;line-height:1.8em;color:#000000;text-decoration:none;background-repeat:no-repeat;}
+	.ipb-atb-menu li ul li a:hover{background-color: #d7d7d7}
+	
+	/* Level 3+ */
+	.ipb-atb-menu li ul li ul {margin: -19px 0 0 178px !important}
+	html > body .ipb-atb-menu li ul li ul {margin: -19px 0 0 180px !important} /* IE6/7 hack for quirks mode templates */
+	
+	.ipb-atb-menu li:hover ul ul, 
+	.ipb-atb-menu li:hover ul ul ul, 
+	.ipb-atb-menu li.sfhover ul ul, 
+	.ipb-atb-menu li.sfhover ul ul ul 
+	{
+		top:-999em; 
+		left:-999em;
+	}
+	
+	.ipb-atb-menu li:hover ul, 
+	.ipb-atb-menu li li:hover ul, 
+	.ipb-atb-menu li li li:hover ul, 
+	.ipb-atb-menu li.sfhover ul, 
+	.ipb-atb-menu li li.sfhover ul, 
+	.ipb-atb-menu li li li.sfhover ul 
+	{
+		top:auto;
+		left:auto;
+	}
+	
+	.ipb-atb-menu li:hover, 
+	.ipb-atb-menu li.hover {position: static;}
+
+	
+/*ABOUT ACM*/
+#divAboutACM {clear: both; padding: 15px;}
+#divAboutACM table {width: 600px;background:#eaeaea;}
+#divAboutACM table, #divAboutACM td {border-collapse: collapse; padding: 0;}
+#divAboutACM table td {padding: 5px !Important; line-height: 150%; border: 1px solid #fff;color:#000000}
+#divAboutACM table td  br{display:inline !important;}
+	
+/*SOCIAL NETWORKING PANEL*/
+#divSocialNetworking {clear: both; padding: 15px;}
+#divSocialNetworking table {width: 600px;}
+#divSocialNetworking table, #divSocialNetworking td {border-collapse: collapse; padding: 0;}
+#divSocialNetworking table td {padding-top: 5px !Important; padding-bottom: 5px !Important; padding-right: 5px !Important; line-height: 150%; border:0}
+
+.ipb-atb-social-menu{margin-right:5px; margin-top:5px; margin-bottom:15px; border:0}
+.ipb-atb-social-title{font-weight:bold;}
+.ipb-atb-social-button{
+	background: url(../images/buttonback.gif);
+	border: solid 1px #000000;
+	cursor: pointer;
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	margin-right: 2px;
+	color: #ffffff;
+	padding: 2px 1px;
+	text-transform: none;}
+.ipb-atb-social-fb-title{font-weight:bold;font-size:12px;}
+.ipb-atb-social-fb-description{font-style:italic;}
+
+#tblACMActionMenu{width:100%;border-collapse:collapse;position: relative; top:0px; left:0;z-index:1;}
+
+#tblACMActionMenu td {font-family: verdana, arial, helvetica, sans-serif; font-size:10px;padding:0}
+	#tblACMActionMenu td a{color: #000000;}
+	#tblACMActionMenu td a:hover {}
+	#tblACMActionMenu td table td {padding:0;}
+
+/*Flyout Styles*/
+	.ipb-act-menu {padding:0;margin:0;list-style: none;list-style-image:none;line-height: 1;z-index:999}
+	.ipb-act-menu li {float:left;list-style:none;list-style-image:none;margin:0;padding:0;z-index:999}
+	.ipb-act-menu li a{display:block;z-index:999}
+	
+	/* Level 1 */
+	.ipb-act-menu li.ipb-act-rootitem a{width:23px;height:21px;text-indent:-5000px;background-position:top;}
+	.ipb-act-menu li.ipb-act-rootitem a:hover{background-position:bottom;}
+	.ipb-act-menu li.ipb-act-rootitem a{background-image: url(../images/icon_action.gif)}
+	
+	/* Level 2 */
+	.ipb-act-menu li ul
+	{
+		width:180px;
+		margin:0 0 0 -1px !important;
+		padding:0;
+		background:#f0f0f0;
+		border-top:1px solid #aeaeae;
+		border-bottom:1px solid #000000;
+		border-left:1px solid #000000;
+		border-right:1px solid #000000;
+		top:-999em;
+		position:absolute;
+		left:-999em
+	}
+	
+	.ipb-act-menu li ul li
+	{
+		float:none;
+		display:block;
+		border-bottom:1px solid #ffffff;
+	}
+	
+	.ipb-act-menu li ul li a
+	{
+		text-indent:5px !important;
+		line-height:1.8em;
+		color:#000000;
+		text-decoration:none;
+		background-image:none !important;
+		width:100% !important;
+		height:auto !important;
+		background-repeat:no-repeat;
+	}
+	
+	.ipb-act-menu li ul li a:hover{background-color: #d7d7d7}
+	
+	/* Level 3+ */
+	.ipb-act-menu li ul li ul {margin: -19px 0 0 178px !important}
+	html > body .ipb-act-menu li ul li ul {margin: -19px 0 0 180px !important} /* IE6/7 hack for quirks mode templates */
+	
+	.ipb-act-menu li:hover ul ul, 
+	.ipb-act-menu li:hover ul ul ul, 
+	.ipb-act-menu li.sfhover ul ul, 
+	.ipb-act-menu li.sfhover ul ul ul 
+	{
+		top:-999em;
+		left:-999em;
+	}
+	
+	.ipb-act-menu li:hover ul, 
+	.ipb-act-menu li li:hover ul, 
+	.ipb-act-menu li li li:hover ul, 
+	.ipb-act-menu li.sfhover ul, 
+	.ipb-act-menu li li.sfhover ul, 
+	.ipb-act-menu li li li.sfhover ul 
+	{
+		top:auto;
+		left:auto;
+	}
+	
+	.ipb-act-menu li:hover, 
+	.ipb-act-menu li.hover 
+	{
+		position: static;
+	}
+	
+	/*jira4257 - accessibility */
+	.kbhover{background-color: #d7d7d7;}
+	.ipb-atb-menu li.menuhover div a{background-position:bottom!important;}
+	.kbhidden{display:none}
+	

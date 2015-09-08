@@ -1,0 +1,7 @@
+#header {
+	width:950px;
+	height:145px;
+	margin:auto;
+	background-image:url(../img/guest_bg.jpg); /* was background-image:url(header_bg.jpg); */
+	background-repeat:repeat-x;
+}

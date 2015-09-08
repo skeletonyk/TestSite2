@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+.GroupHeaderid1siteid49{Background-Color:#336699;Height:20px;Text-Align:Left;}
+.GroupHeaderLinkid1siteid49{Color:#FFFFFF;Font-Family: Verdana, Arial, Helvetica;Font-Size:9pt;Font-Weight:Bold;}
+.GroupHeaderTextid1siteid49{Color:#FFFFFF;Font-Family: Verdana, Arial, Helvetica;Font-Size:9pt;Font-Weight:Bold;}
+.RegionHeaderid1siteid49{Background-Color:#336699;Height:20px;Text-Align:Left;}
+.RegionHeaderTextid1siteid49{Color:#FFFFFF;Font-Family: Verdana, Arial, Helvetica;Font-Size:9pt;Font-Weight:Bold;}
+.Bodyid1siteid49{Background-Color:#FFFFFF;}
+.authorid1siteid49{Color:#000000;Font-Family: Verdana, Arial, Helvetica;Font-Size:8pt;}
+.createdateid1siteid49{Color:#000000;Font-Family: Verdana, Arial, Helvetica;Font-Size:8pt;}
+.creatorid1siteid49{Color:#000000;Font-Family: Verdana, Arial, Helvetica;Font-Size:8pt;}
+.defaultattributeid1siteid49{Color:#000000;Font-Family: Verdana, Arial, Helvetica;Font-Size:8pt;}
+.descriptionid1siteid49{Color:#000000;Font-Family: Verdana, Arial, Helvetica;Font-Size:8pt;}
+.documentsizeid1siteid49{Color:#000000;Font-Family: Verdana, Arial, Helvetica;Font-Size:8pt;}
+.expiredateid1siteid49{Color:#000000;Font-Family: Verdana, Arial, Helvetica;Font-Size:8pt;}
+.inplacedisplayid1siteid49{Color:#000000;Font-Family: Verdana, Arial, Helvetica;Font-Size:8pt;}
+.itemfunctionid1siteid49{Color:#000000;Font-Family: Verdana, Arial, Helvetica;Font-Size:8pt;}
+.keywordsid1siteid49{Color:#000000;Font-Family: Verdana, Arial, Helvetica;Font-Size:8pt;}
+.perspectivesid1siteid49{Color:#000000;Font-Family: Verdana, Arial, Helvetica;Font-Size:8pt;}
+.scoreid1siteid49{Color:#000000;Font-Family: Verdana, Arial, Helvetica;Font-Size:8pt;}
+.subpagetitleid1siteid49{Color:#000000;Font-Family: Verdana, Arial, Helvetica;Font-Size:8pt;}
+.titleid1siteid49{Color:#000000;Font-Family: Verdana, Arial, Helvetica;Font-Size:8pt;Font-Weight:Bold;}
+.titleorimageid1siteid49{Color:#336699;Font-Family: Verdana, Arial, Helvetica;Font-Size:9pt;Font-Weight:Bold;}
+.wwsbr_category_id1siteid49{Color:#000000;Font-Family: Verdana, Arial, Helvetica;Font-Size:8pt;}
+.wwsbr_charset_id1siteid49{Color:#000000;Font-Family: Verdana, Arial, Helvetica;Font-Size:8pt;}
+.wwsbr_itemtype_id1siteid49{Color:#000000;Font-Family: Verdana, Arial, Helvetica;Font-Size:8pt;}
+.wwsbr_mime_type_id1siteid49{Color:#000000;Font-Family: Verdana, Arial, Helvetica;Font-Size:8pt;}
+.wwsbr_page_id1siteid49{Color:#000000;Font-Family: Verdana, Arial, Helvetica;Font-Size:8pt;}
+.wwsbr_pagegroup_id1siteid49{Color:#000000;Font-Family: Verdana, Arial, Helvetica;Font-Size:8pt;}
+.wwsbr_publishdate_id1siteid49{Color:#000000;Font-Family: Verdana, Arial, Helvetica;Font-Size:8pt;}
+.wwsbr_updatedate_id1siteid49{Color:#000000;Font-Family: Verdana, Arial, Helvetica;Font-Size:8pt;}
+.wwsbr_updator_id1siteid49{Color:#000000;Font-Family: Verdana, Arial, Helvetica;Font-Size:8pt;}
+.wwsbr_version_number_id1siteid49{Color:#000000;Font-Family: Verdana, Arial, Helvetica;Font-Size:8pt;}
+.LeftCurve{Background-Attachment:scroll;Background-Image:url(/images/FFFFFFl.gif);Background-Position:left top;Background-Repeat:no-repeat;}
+.PortletBodyColor{}
+/*
+.PortletHeaderLink{Color:#FFFFFF;Font-Family: Verdana, Arial, Helvetica;Font-Size:8pt;}
+.PortletHeaderText{Color:#FFFFFF;Font-Family: Verdana, Arial, Helvetica;Font-Size:10pt;Font-Weight:Bold;}
+*/
+.PortletHeaderColor{Background-Color:#E3E3E3;}
+.PortletHeaderLink{Color:#E3E3E3;Font-Family: Verdana, Arial, Helvetica;Font-Size:8pt;}
+.PortletHeaderText{Color:#E3E3E3;Font-Family: Verdana, Arial, Helvetica;Font-Size:10pt;Font-Weight:Bold;}
+
+.PortletHeaderStyle{}
+.PortletHeading1{Color:#336699;Font-Family: Verdana, Arial, Helvetica;Font-Size:9pt;Font-Weight:Bold;}
+.PortletHeading2{Color:#336699;Font-Family: Verdana, Arial, Helvetica;Font-Size:8pt;Font-Weight:Bold;}
+.PortletHeading3{Color:#336699;Font-Family: Verdana, Arial, Helvetica;Font-Size:7pt;Font-Weight:Bold;}
+.PortletHeading4{Color:#336699;Font-Family: Verdana, Arial, Helvetica;Font-Size:7pt;Font-Weight:Bold;}
+.PortletSubHeaderColor{Background-Color:#EEEEDD;}
+.PortletSubHeaderLink{Color:#000000;Font-Family: Verdana, Arial, Helvetica;Font-Size:9pt;}
+.PortletSubHeaderText{Color:#000000;Font-Family: Verdana, Arial, Helvetica;Font-Size:9pt;}
+.PortletText1{Color:#000000;Font-Family: Verdana, Arial, Helvetica;Font-Size:8pt;}
+.PortletText2{Color:#000000;Font-Family: Verdana, Arial, Helvetica;Font-Size:8pt;}
+.PortletText3{Color:#000000;Font-Family: Verdana, Arial, Helvetica;Font-Size:7pt;}
+.PortletText4{Color:#000000;Font-Family: Verdana, Arial, Helvetica;Font-Size:7pt;}
+.RightCurve{Background-Attachment:scroll;Background-Image:url(/images/FFFFFFr.gif);Background-Position:right top;Background-Repeat:no-repeat;}
+.LeftSubTabid1siteid49{Background-Attachment:scroll;Background-Color:#336699;Background-Image:url(/images/FFFFFFsl.gif);Background-Position:left top;Background-Repeat:no-repeat;}
+.LeftTabBgSlantid1siteid49{Background-Attachment:scroll;Background-Color:#CCCC99;Background-Image:url(/images/FFFFFFtl.gif);Background-Position:left top;Background-Repeat:no-repeat;}
+.LeftTabForeSlantid1siteid49{Background-Attachment:scroll;Background-Color:#336699;Background-Image:url(/images/FFFFFFtl.gif);Background-Position:left top;Background-Repeat:no-repeat;}
+.RightSubTabid1siteid49{Background-Attachment:scroll;Background-Color:#336699;Background-Image:url(/images/FFFFFFsr.gif);Background-Position:right top;Background-Repeat:no-repeat;}
+.RightTabBgCurveid1siteid49{Background-Attachment:scroll;Background-Color:#CCCC99;Background-Image:url(/images/FFFFFFtr.gif);Background-Position:right top;Background-Repeat:no-repeat;}
+.RightTabForeCurveid1siteid49{Background-Attachment:scroll;Background-Color:#336699;Background-Image:url(/images/FFFFFFtr.gif);Background-Position:right top;Background-Repeat:no-repeat;}
+.SubTabBgTextid1siteid49{Color:#CCCC99;Text-Decoration:none;Font-Family: Verdana, Arial, Helvetica;Font-Size:11pt;Font-Weight:Bold;}
+.TabBackgroundColorid1siteid49{Background-Color:#CCCC99;}
+.TabBackgroundTextid1siteid49{Color:#003366;Text-Decoration:none;Font-Family: Verdana, Arial, Helvetica;Font-Size:10pt;}
+.TabForegroundColorid1siteid49{Background-Color:#336699;}
+.TabForegroundTextid1siteid49{Color:#FFFFFF;Text-Decoration:none;Font-Family: Verdana, Arial, Helvetica;Font-Size:10pt;Font-Weight:Bold;}
+.portlet-font{Color:#000000;    Font-Family: Verdana, Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-font-dim{Color:#000000;    Font-Family: Verdana, Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-msg-status{Color:#000000;    Font-Family: Verdana, Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-msg-info{Color:#000000;    Font-Family: Verdana, Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-msg-error{Color:#000000;    Font-Family: Verdana, Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-msg-alert{Color:#000000;    Font-Family: Verdana, Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-msg-success{Color:#000000;    Font-Family: Verdana, Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-section-header{Color:#336699;    Font-Family: Verdana, Arial, Helvetica;    Font-Size:9pt;    Font-Weight:Bold;    }
+.portlet-section-body{Color:#000000;    Font-Family: Verdana, Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-section-alternate{Color:#000000;    Font-Family: Verdana, Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-section-selected{Color:#000000;    Font-Family: Verdana, Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-section-subheader{Color:#336699;    Font-Family: Verdana, Arial, Helvetica;    Font-Size:8pt;    Font-Weight:Bold;    }
+.portlet-section-footer{Color:#000000;    Font-Family: Verdana, Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-section-text{Color:#000000;    Font-Family: Verdana, Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-table-header{Color:#336699;    Font-Family: Verdana, Arial, Helvetica;    Font-Size:9pt;    Font-Weight:Bold;    Background-Color:#EEEEDD;    }
+.portlet-table-body{Color:#000000;    Font-Family: Verdana, Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-table-alternate{Color:#000000;    Font-Family: Verdana, Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-table-selected{Color:#000000;    Font-Family: Verdana, Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-table-subheader{Color:#336699;    Font-Family: Verdana, Arial, Helvetica;    Font-Size:8pt;    Font-Weight:Bold;    }
+.portlet-table-footer{Color:#000000;    Font-Family: Verdana, Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-table-text{Color:#000000;    Font-Family: Verdana, Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-form-label{Color:#000000;    Font-Family: Verdana, Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-form-input-field{Color:#000000;    Font-Family: Verdana, Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-form-button{Color:#000000;    Font-Family: Verdana, Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-icon-label{Color:#000000;    Font-Family: Verdana, Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-dlg-icon-label{Color:#000000;    Font-Family: Verdana, Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-form-field-label{Color:#000000;    Font-Family: Verdana, Arial, Helvetica;    Font-Size:8pt;    }
+.portlet-form-field{Color:#000000;    Font-Family: Verdana, Arial, Helvetica;    Font-Size:8pt;    }
+.RegionNoBorder{}
+.RegionBorder { border:#336699  1px solid; }
+.RegionHeaderColor { border:#336699 0px solid;}
+.PageColor { background-color:#FFFFFF}

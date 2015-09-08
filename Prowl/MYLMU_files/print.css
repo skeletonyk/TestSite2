@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+#pagetitle, #columnLeft, #columnRight, #bread_crumb{ display:none}
+#print_header{ display: block; }
+
+#content, #content_2col, #content_1col{width: 100%; float:none; font-size:12px !important}
+
+
+
+
+

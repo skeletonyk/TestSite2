@@ -1,0 +1,42 @@
+body {
+  margin: 0px;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 1.25em;
+    color: #000;
+    background: #fff;
+    height: 100%;
+}
+
+#guestContainer {
+  width:950px;
+  height:650px; /* was 550 */
+  background-image:url(../img/guest_bg.jpg); /* was background-image:url(guest_bg.jpg); */
+  margin:auto;
+  padding-top:50px; /* was 280 */
+}
+#guest_logo {
+  background-image:url(../img/logo_guest.gif);
+  background-repeat:no-repeat;
+  background-position:center;
+  padding:70px;
+}
+.login_container {
+  text-align:center;
+  padding:4px;
+  color:#FFFFFF;
+}
+input {
+  color: black;
+}
+
+.txtbox {
+  background-image:url(search_bg.jpg);
+  background-repeat:repeat-x;
+  background-color:transparent;
+  border:0px solid #f7f7f7;
+  width:250px;
+  font-weight:bold;
+  padding-top:4px;
+  padding-left:2px;
+}

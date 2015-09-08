@@ -1,0 +1,330 @@
+body {
+  margin:0px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size:11px;
+  
+  /* from lmucalendar's main.css */
+  line-height: 1.25em;
+  color: #000;
+  background: #fff;
+  height: 100%;
+}
+#header {
+  width:950px;
+  height:145px;
+  margin:auto;
+  background-image:url(../img/header_bg.jpg); /* was background-image:url(header_bg.jpg); */
+  background-repeat:repeat-x;
+}
+#logo {
+  /* was
+  background-image:url(logo.gif);
+  background-repeat:no-repeat;
+  background-position:center 29px;
+  height:145px;
+  */
+  padding-top:29px;
+  height:71px;  
+}
+#welocme {
+  float:left;
+  padding:4px;
+  padding-left:15px;
+  font-size:12px;
+}
+#stretchbar {
+  padding-top:10px;
+  height:28px;
+  border-bottom:1px solid #fff;
+  border-top:1px solid #fff;
+  background-color:#666;
+  margin:auto;
+  width:950px;
+  color:#FFF;
+}
+.links {
+  float:right;
+  padding:4px;
+  text-decoration:none;
+}
+.links a {
+  /* margin-left:4px; */
+  margin-right:4px;
+  color:#FFF;
+  text-decoration:none;
+  font-size:12px;
+}
+#container {
+  padding:6px;
+  background-color:#b5b5b5;
+  margin:auto;
+  width:938px;
+}
+#container_inner {
+  background-color:#e3e3e3;
+  padding:2px;
+}
+#footer_container {
+  padding:6px;
+  background-color:#4c80b0;
+  margin:auto;
+  width:938px;
+  margin-top:1px;
+}
+#footer_container_inner {
+  background-color:#1c5e9b;
+  padding:9px 16px 9px 16px;
+  color:#FFF;
+}
+#footer_logo {
+  float:left;
+  width:15%;
+  height:120px;
+  background-image:url(../img/lmula.jpg);
+  background-repeat:no-repeat;
+  background-position:left center;
+}
+#footer_links {
+  width:80%; /* was 67% */
+  margin-left:25px; /* was 50px */
+  float:left;
+}
+.footer_links_cover {
+  text-align: left; /* added */
+  float:left;
+  width:135px; /* was 100 */
+  margin-left:15px;
+  background-image:url(vr.jpg);
+  background-repeat:repeat-y;
+  background-position:right;
+}
+
+.footer_cov_bg {
+  background-image:none !important;
+}
+
+#footer_links a {
+  display:block;
+  color:#FFF;
+  text-decoration:none;
+  line-height:18px;
+}
+#footer_links a:hover {
+  text-decoration:underline;
+}
+.more {
+  float:right;
+  margin-top:90px;
+  border:1px solid #fff;
+  padding:4px;
+}
+.more a {
+  color:#FFF;
+  text-decoration:none;
+}
+.more a:hover {
+  text-decoration:underline;
+}
+.bottom_div {
+  clear:both;
+  background-image:url(hr.jpg);
+  background-repeat:repeat-x;
+  background-position:top;
+  padding-top:5px;
+  font-size:10px;
+  height:18px;
+}
+.bottom_div .left_links {
+  float:left;
+  color:#FFF;
+  text-decoration:none;
+}
+.bottom_div .left_links a {
+  color:#FFF;
+  text-decoration:none;
+  margin-left:4px;
+  margin-right:4px;
+}
+.bottom_div .copyright {
+  float:right;
+}
+.bottom_div_guest {
+  clear:both;
+  background-image:url(bottom_divider.jpg);
+  background-repeat:no-repeat;
+  background-position:top;
+  padding-top:5px;
+  font-size:10px;
+  height:18px;
+  margin:auto;
+  margin-top:15px; /* was 150 */
+  width:903px;
+}
+.bottom_div_guest .left_links {
+  float:left;
+  color:#FFF;
+  text-decoration:none;
+  margin-top:5px; /* was 0 */
+}
+.bottom_div_guest .left_links a {
+  color:#FFF;
+  text-decoration:none;
+  margin-left:4px;
+  margin-right:4px;
+}
+.bottom_div_guest .copyright {
+  float:right;
+  color:#FFFFFF;
+  margin-top:5px; /* was 0 */
+}
+/*______Portlets Codes Start_______*/
+
+.portlet_header_inner {
+  background-image:url(portlet-header.jpg);
+  background-repeat:no-repeat;
+  background-position:left 0;
+  margin:0px 5px 0px 0px;
+}
+.portlet_header {
+  background-image:url(portlet-header.jpg);
+  background-repeat:no-repeat;
+  background-position:right 0;
+  
+}
+.portlet_header_bot-lcor {
+  background-image:url(portlet-footer-left-cor.jpg);
+  background-repeat:no-repeat;
+  background-position:bottom left;
+  background-color:transparent;
+  
+
+}
+.portlet_header_bot-rcor {
+  background-image:url(portlet-footer-right-cor.jpg);
+  background-repeat:no-repeat;
+  background-position:bottom right;
+  background-color:#FFFFFF;
+}
+.portlet_content_area {
+  margin-left:5px;
+  padding-bottom:0px;
+  font-family:Verdana,Arial, Helvetica, sans-serif !important;
+}
+* html .portlet_content_area table tr td {
+  padding:0px 0px 0px 0px !important;
+}
+.portlet_content_area .LeftCurve {
+  display:none;
+}
+.portlet_content_area .PortletHeaderColor {
+  Background-Color:transparent;
+  font-size:0px;
+  padding-top:3px;
+  height:30px !important;
+}
+.portlet_content_area .PortletHeaderText {
+  Color:#083d6e;
+  Font-Family: Verdana, Arial, Helvetica;
+  Font-Size:11pt;
+  Font-Weight:Bold;
+}
+.portlet_content_area .RegionNoBorder {
+}
+.portlet_content_area .RegionBorder {
+  border:#336699 0px solid;
+  margin-top:0px;
+}
+.portlet_content_area .RegionBorder div {
+  padding:10px 0px 10px 0px;
+}
+.portlet_content_area .PortletHeaderLink {
+  Color:#f7f7f7;
+  Font-Family: Verdana, Arial, Helvetica;
+  Font-Size:0px;
+  text-decoration:none;
+  display:block;
+  background-image:url(personalize.gif);
+  background-repeat:no-repeat;
+  width:25px;
+  height:17px;
+  cursor:pointer;
+  float:left;
+  background-color:transparent;
+  margin-top:0px;
+}
+.portlet_content_area td a img {
+  margin-right:5px;
+}
+* html .portlet_content_area td a img {
+  margin-top:5px;
+}
+/*______Portlets Codes End_______*/
+
+
+
+
+/*______Portlets2 Codes Start_______*/
+
+.portlet2_header_inner {
+  background-image:url(../img/header_bg.jpg);
+  background-repeat:no-repeat;
+  background-position:left 0;
+  margin:0px 5px 0px 0px;
+}
+.portlet2_header {
+  background-image:url(../img/header_bg.jpg);
+  background-repeat:no-repeat;
+  background-position:right 0;
+  background-color:#faffe2;
+}
+.portlet2_header_bot-lcor {
+  background-image:url(../img/header_bg.jpg);
+  background-repeat:no-repeat;
+  background-position:bottom left;
+}
+.portlet2_header_bot-rcor {
+  background-image:url(../img/header_bg.jpg);
+  background-repeat:no-repeat;
+  background-position:bottom right;
+}
+.portlet2_content_area {
+  margin-left:5px;
+  padding-bottom:10px;
+}
+.portlet2_content_area .LeftCurve {
+  display:none;
+}
+.portlet2_content_area .PortletHeaderColor {
+  Background-Color:transparent;
+  font-size:0px;
+  padding-top:3px;
+}
+.portlet2_content_area .PortletHeaderText {
+  Color:#083d6e;
+  Font-Family: Verdana, Arial, Helvetica;
+  Font-Size:11pt;
+  Font-Weight:Bold;
+}
+.portlet2_content_area .RegionNoBorder {
+}
+.portlet2_content_area .RegionBorder {
+  border:#336699 0px solid;
+  margin-top:15px;
+}
+.portlet2_content_area .PortletHeaderLink {
+  Color:#f7f7f7;
+  Font-Family: Verdana, Arial, Helvetica;
+  Font-Size:0px;
+  text-decoration:none;
+  display:block;
+  background-image:url(personalize.gif);
+  background-repeat:no-repeat;
+  width:25px;
+  height:17px;
+  cursor:pointer;
+  float:left;
+  background-color:transparent;
+}
+.portlet2_content_area td a img {
+  margin-right:5px;
+}

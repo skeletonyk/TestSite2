@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  <body>
+  <div id="guestContainer">
+    <div id="guest_logo"></div>
+    <div class="login_container">
+    username:&nbsp;
+    <input type="text" id="username" size="20">
+    <div class="login_container">
+    password:&nbsp;&nbsp;&nbsp;
+    <input type="password" id="password" size="20">
+    <br>
+    <br>
+    <div style='color: #FF0000' id='incorrectLogin'>Incorrect User/Password</div>
+    <div class="login_container"><input type="image" src="./img/btn_login.gif" id="login"></div>
+
+    <!-- Reset Password Button -->
+    <div class="login_container">
+    <img alt="reset your password" src="./img/btn_reset-password.gif" name="CL_Cancel" id="CL_Cancel" onclick="self.location.href='https://apps.lmu.edu/setnewpassword/reset.aspx';"></div>
+  </div>
+  </div>
+  
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+  
+
+  var loginFcn = function() {
+      if($('#username').val() === 'nwu1' && $('#password').val() === 'NewYork20179299'){
+        window.location="test.html"
+      }
+      else{
+        $('#incorrectLogin').show();
+      }
+    }
+
+    $('#login').click(loginFcn)
+    $(function() {
+      $('#incorrectLogin').hide();
+    })
+  </script>
+  </body>
+</html>

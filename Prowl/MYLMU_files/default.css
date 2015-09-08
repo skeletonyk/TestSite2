@@ -1,0 +1,160 @@
+body{margin:0;background: #ffffff;color:#000000}
+body,td,th,input,select,textarea,input {font-family: Arial, Helvetica, sans-serif;}
+body,td,th,input,select,textarea,input {font-size:12px;}
+p{margin:0 0 1.5em 0;}
+form{padding:0;margin:0}
+a img{border:none;}
+a:focus{outline: none;}
+a{color:#0f76cf;text-decoration:none;}
+a:hover{text-decoration:underline !important;}
+a span{ color: #0f76cf;}
+
+.separator{ width: 100%; background:url(http://webapps.lmu.edu/print/images/item_seperator.png) repeat-x; height: 10px ; font-size:1px}
+.subscript{font-family:Arial, Helvetica, sans-serif; color:#999999 !important; font-size:9px !important; margin: 0 0 10px 0}
+
+#tblACMAdminToolbar{z-index:1000;}
+
+.clear:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;} .clear {display: inline-block;} /* Hides from IE-mac \*/ * html .clear {height: 1%;} .clear {display: block;} /* End hide from IE-mac */ 
+
+#wrapper{width:920px;margin:0 auto}
+
+	#header{border: none; height: 0; margin: 0; position: relative}
+	
+	#toolbar{background:#666666;color:#fff;padding:13px 22px;margin:1px 0}
+		#toolbar a{color:#fff;text-decoration:none;}
+		#toolbar a:hover{text-decoration:underline;}
+			
+		#toolbar-welcome{}
+		
+		#toolbar-links{float:right;}			
+			#toolbar-links img{vertical-align:middle;}
+			#toolbar-links a{padding:0 6px;}
+	
+	#print_header{ display:none}
+	h1#pagetitle{background: url(../images/mylmu/stripes-red-bg.gif);color:#fff;font-size:28px;line-height:1.2em;padding:6px 15px;font-weight:normal;margin:0;border-bottom:15px solid #fff}
+		
+	#contentarea{border:1px solid #8d8d8d;padding:15px 10px;clear:both;line-height:1.4em}
+	#dividerbg{background: url(../images/mylmu/dividers-bg.gif) top left repeat-y;}
+	#dividerbg_2col{background: url(../images/mylmu/dividers-bg-2col.gif) top left repeat-y;}
+	#dividerbg_1col{background: none;}
+	
+	
+		#columnLeft{width:181px;float:left;margin:0 25px 0 0}
+			#helpdesk{margin: 10px 0 10px 0}
+			#columnLeft #columnLeftPagelet ul{margin:15px 0;padding:0; list-style:none}
+		    #columnLeft #columnLeftPagelet ul li{margin:0 0 4px 0px;padding:0 0 5px 23px;background: url(../images/bullet.gif) 0 0px no-repeat;}
+			#columnLeft .columnLeftPagelet{ margin: 15px 0 0 0}
+			
+			#nav{margin:0 0 20px 0}
+				#nav ul {padding:0;margin:0;list-style:none;list-style-image:none;line-height:1;}
+				#nav ul li {float: left;list-style:none;list-style-image:none;margin:0 0 2px 0}
+				#nav ul li a{display:block;text-decoration:none;color:#b12c1b;}
+				/* Level 1 */
+				#nav ul li div a{width:149px;padding:8px 10px 5px 22px;background:#e9e9e9 url(../images/mylmu/bullet-plussign.gif) 10px 11px no-repeat;}
+				#nav ul li div a:hover{}
+				/* Level 2 */
+				#nav ul li ul{margin: -27px 0 0 181px;position: absolute;background: #e9e9e9;width: 180px;border-top:1px solid #828282;border-left:1px solid #828282;border-right:1px solid #828282;left: -999em;}
+				#nav ul li ul li{margin:0;}
+				#nav ul li ul li a{border-bottom:1px solid #828282;width:160px;padding:6px 10px;text-indent:0;}
+				#nav ul li ul li a:hover{background: #fff}
+				#nav ul li ul li.ipf-parent a{background: url(../images/mylmu/nav-subarrow.gif) right no-repeat}
+				#nav ul li ul li.ipf-parent a:hover{background: #fff url(../images/mylmu/nav-subarrow.gif) right no-repeat}
+				/* Level 3 */
+				#nav ul li ul li ul {margin: -26px 0 0 180px;}
+				#nav ul li ul li ul li a{background:none !important;}
+				#nav ul li ul li ul li a:hover{background: #fff !important;}
+			
+				#nav li:hover ul ul, #nav li:hover ul ul ul, #nav li.sfhover ul ul, #nav li.sfhover ul ul ul {left: -999em;}
+				#nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li.sfhover ul, #nav li li.sfhover ul, #nav li li li.sfhover ul {left: auto;}
+				#nav li:hover, #nav li.hover {position: static;}
+			
+			#columnLeft #grab_URL{margin: 5px 0 10px 0; text-align:center}
+			#columnLeft #grab_URL input{margin: 5px 0 0 0; font-size:10px}	
+			#columnLeftPagelet{}
+		/*------------------------------------- Tool Box -------------------------------------------------------*/
+			#tools{font-size:9px;color:#666666;padding:15px 12px 20px 19px;border:1px solid #CCCCCC;background:#f5f5f5;padding:0px 15px;margin:20px 15px 15px 15px; height: 170px;}
+			#tools img{vertical-align:middle}
+			#tools p{margin:0 0 10px 0;}
+			#tools a{color:#666666;text-decoration:none;}
+			#tools a:hover{color:#666666;text-decoration:none !important;}
+			#tools h2{ font-family:"Times New Roman", Times, serif; font-size:20px; color:#b22424; margin: 0 0 5px 0 }					
+		
+		
+		#content{width:477px;float:left;}
+		#content_2col{width:660px;float:left;}
+		#content_1col{width:866px;float:left;}
+		
+		.content_style ul{margin:15px 0;padding:0; list-style:none}
+		.content_style ul li{margin:0 0 4px 0px;padding:0 0 5px 23px;background: url(../images/bullet.gif) 0 0px no-repeat;}
+		.content_style h1, h2, h3, h4{ font-size:14pt; color: #000000; line-height: 22px; font-weight:normal}
+		.content_style a span{color:#0f76cf;}			
+		.content_style{ font-family:Arial, Helvetica, sans-serif}
+			#bread_crumb{margin: 0 0 20px 0; font-size:11px}
+			#bread_crumb a:link{font-size:11px;}
+			#bread_crumb a:visited{font-size:11px;}
+			#bread_crumb a:hover{font-size:11px;}
+			
+			.photo{border:8px solid #d2d1d1;}
+		
+		#columnRight{width:183px;float:left;margin:0 0 0 22px;font-size:11px;}
+			
+		#columnRight .pagelet-quicklinks{float:right;width:170px;border:1px solid #e5e5e5;background:#f5f5f5;}
+			#columnRight .pagelet-quicklinks-title{background: url(../images/mylmu/stripes-blue-bg.gif);color:#fff;font-size:14px;line-height:1.2em;padding:8px 15px;font-weight:normal;margin:0 0 1px 0;text-align:center}
+			#columnRight .pagelet-quicklinks ul{list-style:none;margin:0;padding:15px 10px;}
+			#columnRight .pagelet-quicklinks li{margin:0 0 10px 0;padding:0 0 0 12px;list-style:none;background: url(../images/mylmu/bullet-chevron.gif) 0 6px no-repeat;}
+			#columnRight .pagelet-quicklinks li	img{margin:0 0 0 8px;}
+			#columnRight .pagelet-quicklinks li	a:hover{text-decoration:none !important;}
+		
+			/*#columnRight h2{background: url(../images/mylmu/stripes-blue-bg.gif);color:#fff;font-size:14px;line-height:1.2em;padding:8px 15px;font-weight:normal;margin:0 0 1px 0;text-align:center}
+			.block{border:2px solid #e8e7e7;background:#f3f3f3;padding:15px 10px;}
+				.block ul{margin:0;padding:0;list-style:none;}
+				.block ul li{margin:0 0 10px 0;padding:0 0 0 12px;list-style:none;background: url(../images/mylmu/bullet-chevron.gif) 0 6px no-repeat;}
+			*/
+	#relatedLinks{background:#1c5e9b;border:6px solid #4c80b0;color:#fff;line-height:1.4em;padding:30px 20px 10px 20px;clear:both}
+		#relatedLinks a{color:#fff;text-decoration:none;}
+		#relatedLinks a:hover{text-decoration:underline;}
+		
+		#relatedLinksTable{width:100%;border-collapse:collapse;margin:0 0 20px 0}
+			#relatedLinksTable td{padding:0 15px;background: url(../images/mylmu/relatedlinkscell-bg.gif) top left repeat-y;vertical-align:middle;}
+				#relatedLinksTable td ul{margin:0;padding:0;list-style:none;}
+				#relatedLinksTable td ul li{margin:0 0 1px 0;}
+			#relatedLinksTable td#relatedLinkslmulogo{width:180px;vertical-align:middle;background:none;padding:0}
+			#relatedLinksTable td#relatedLinksMoreCell{vertical-align:bottom;text-align:right;background:none}
+				#relatedLinksTable td#relatedLinksMoreCell a{border:1px solid #8eafcd;display:block;float:right;padding:2px 4px;text-decoration:none;}
+		
+	#footer{background: url(../images/mylmu/footer-bg.gif) top left repeat-x;font-size:10px;padding:10px 0 0 0}
+		
+		
+		#footerCopyright{float:right;}
+		#footerLinks{}
+			#footerLinks a{padding:0 4px}
+		
+	/* ----------------------------------------------------------------------------------------------------- */			
+/* Tier 3 - Rotating photo
+/* ----------------------------------------------------------------------------------------------------- */	
+			
+#slideshow {
+    position:relative;
+    height:224px;
+}
+
+
+
+#slideshow IMG.last-active {
+    z-index:9;
+}
+
+
+#slideshow IMG {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+    opacity:0.0;
+}
+
+#slideshow IMG.active {
+    z-index:10;
+    opacity:1.0;
+}
+	

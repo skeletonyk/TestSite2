@@ -1,0 +1,113 @@
+
+/* Admin Menu CSS Classes */
+
+#ipbadmin img {padding: 0; margin: 0;}
+
+div#ipb-AdminToolbarPageView table td {vertical-align: top; padding:0px;}
+div#ipb-AdminToolbarPageView table {border-collapse:collapse; border-spacing: 0; }
+
+div#ipb-AdminToolbarPageView {
+	width: 100%;
+	background:none!important;
+}
+
+
+div#ipb-preview-typical 
+{
+	width: 100%;
+}
+
+#ipb-preview-all-744 
+{
+	table-layout: fixed;
+	border: 0;
+	color: #000000;
+	font: 9px Verdana, Helvetica, sans-serif;
+	width: 100%;
+}
+
+.ipb-preview-all-744 td {
+	font: 9px Verdana, Helvetica, sans-serif;
+}
+
+.ipb-preview-buttonbg {
+	table-layout: fixed;
+	color: #000000;
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	padding: 4px 5px;
+	background: url(../images/gradback.gif);
+	height: 33px;
+	width: 100%;
+}
+
+.ipb-preview-button {
+	background: url(../images/buttonback.gif);
+	border: solid 1px #000000;
+	cursor: pointer;
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif;
+	margin-right: 1px;
+	color: #ffffff;
+	padding: 2px 1px;
+}
+
+/* The following five "ddbtn" items are included here in order to properly display
+   the drop down menus used both in the subpage management table and in the 
+   questionnaire management tables when editing. These classes had originally been
+   included in ip-backend.css, but after the #ipbadmin dictate were no longer 
+   working properly. The drop down menu making use of these classes creates the 
+   reference to the class in a JavaScript file and uses internal code to handle the
+   display, overriding (or bypassing) any div tags placed around them. Thus, the #ipbadmin
+   predictate was causing the classes to not display, and they are moved here to 
+   continue to provide their function for those drop down classes. 
+*/
+
+.ipb-ddbtn {
+	background-color: #EDEDED;
+	border: solid 1px #444444;
+}
+
+/* yv20120117: ACM 4914 - control renders element's classes in Pascal case: ipb-ddbtn-subitem -> ipb-ddbtn-SubItem */
+
+td.ipb-ddbtn-SubItem, table.ipb-ddbtn-SubItem td {
+	background-color: #EDEDED !important;
+	cursor: pointer;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif !important;
+	padding-bottom: 1px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 1px;
+}
+
+td.ipb-ddbtn-SubItemOver, table.ipb-ddbtn-SubItemOver td{
+	background-color: #3B4C6B !important;
+	color: #FFFFFF !important;
+	cursor: pointer;
+	font: 11px Tahoma, Arial, Verdana, Helvetica, sans-serif !important;
+	padding-bottom: 1px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 1px;
+}
+
+td.ipb-ddbtn-TopItem, table.ipb-ddbtn-TopItem td {
+	background-color: #EDEDED !important;
+	border-bottom: 1px solid #444444;
+	cursor: pointer;
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif !important;
+	padding-bottom: 5px;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 5px;
+}
+
+td.ipb-ddbtn-TopItemOver, table.ipb-ddbtn-TopItemOver td {
+	background-color: #3B4C6B !important;
+	border-bottom: 1px solid #444444;
+	color: #FFFFFF !important;
+	cursor: pointer;
+	font: bold 11px Tahoma, Arial, Verdana, Helvetica, sans-serif !important;
+	padding-bottom: 5px;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 5px;
+}

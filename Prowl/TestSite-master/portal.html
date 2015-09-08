@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+  <div id="header"><div><input type="image" id="topbox" alt="" src="images/pobtrans.gif" width="1" height="1"></div>
+  <div id="logo"><a href="home"><input type="image" src="images/logo.gif" onclick="changeLocation('home'); return false;"></a>
+  </div>
+  <div id="search">
+   <form method="post" action="search#top">
+    <input type="image" src="images/go.jpg" name="button" id="button" value="Submit">
+    <input name="search" type="text" class="txtbox" id="textfield" value="Search" onfocus="doClear(this)" onblur="doClear1(this)">
+  </form>
+</div>
+<div id="qlinks">
+  <img id="qlinksImg" src="images/quick-ico.jpg" width="8" height="9" border="0">
+  <a href="javascript:void();" onclick="showQuickLinks(); return false;">Quick Links</a>
+</div>
+<!-- jquery -->
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</div>
+</html>
